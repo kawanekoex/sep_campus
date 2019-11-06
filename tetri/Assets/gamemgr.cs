@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+using Common;
+
 public struct Move_Block
 {
     public Vector2Int v;
@@ -30,19 +32,6 @@ public struct Next_block
 
 public class gamemgr : MonoBehaviour
 {
-    [SerializeField]
-    private int STAGE_MAX_X = 10;
-    [SerializeField]
-    private int STAGE_MAX_Y = 20;
-
-    private int BLOCK_MAX_X = 5;
-
-    private int BLOCK_MAX_Y = 5;
-    [SerializeField]
-    private int BLOCK_TYPE = 7;
-    [SerializeField]
-    private float MOVE_TIME_MAX = 1.0f;
-
     //描画用
     private block[,,] block_draw;
     //判定用
@@ -123,7 +112,9 @@ public class gamemgr : MonoBehaviour
   [SerializeField]
     private GameObject draw_obj;
     [SerializeField]
-    private GameObject move_obj;
+    private GameObject stage_obj;
+    //[SerializeField]
+    //private GameObject move_obj;
     [SerializeField]
     private GameObject score_object;
     //public float m_time;
@@ -141,35 +132,21 @@ public class gamemgr : MonoBehaviour
 
         hold = -1;
 
-        block_draw = new block[2, STAGE_MAX_Y, STAGE_MAX_X];
+        block_draw = new block[2, Define.STAGE_MAX_Y, Define.STAGE_MAX_X];
 
-        block_stage = new block[STAGE_MAX_Y + 5, STAGE_MAX_X];
-        m_block.block_date = new bool[BLOCK_MAX_Y, BLOCK_MAX_X];
+        block_stage = new block[Define.STAGE_MAX_Y + Define.BLOCK_MAX_Y, Define.STAGE_MAX_X];
+        m_block.block_date = new bool[Define.BLOCK_MAX_Y, Define.BLOCK_MAX_X];
 
         Load();
         for(int i = 0;i< 5; i++)
         {
             //乱数生成
-            int rand = Random.Range(0, BLOCK_TYPE);
+            int rand = Random.Range(0, Define.BLOCK_TYPE);
             next[i] = rand;
         }
         //ブロック生成
         spawn_block();
-        //block_stage[1, 0] = true;
-        // block_stage[0, 0] = true;
-        //for (int y = 0; y < 20; y++)
-        //{
-        //    for(int x = 0;x< 10; x++)
-        //    {
-        //        if (block[y, x]) {
-        //            GameObject o = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
-
-        //            o.GetComponent<obj_mgr>().index = new Vector2Int(x, y);
-
-        //        }
-        //    }
-        //}
-
+        
 
     }
 
@@ -187,15 +164,15 @@ public class gamemgr : MonoBehaviour
             if (m_block.wait_time >= 1.0f)
             {
                 m_block.wait_time = 0.0f;
-                for (int y = 0; y < BLOCK_MAX_Y; y++)
+                for (int y = 0; y < Define.BLOCK_MAX_Y; y++)
                 {
                     int index_y_num = (m_block.pos.y - 2) + y;
-                    if (index_y_num >= 0 && index_y_num < STAGE_MAX_Y + BLOCK_MAX_Y)
+                    if (index_y_num >= 0 && index_y_num < Define.STAGE_MAX_Y + Define.BLOCK_MAX_Y)
                     {
-                        for (int x = 0; x < BLOCK_MAX_X; x++)
+                        for (int x = 0; x < Define.BLOCK_MAX_X; x++)
                         {
                             int index_x_num = (m_block.pos.x - 2) + x;
-                            if (index_x_num >= 0 && index_x_num < STAGE_MAX_X)
+                            if (index_x_num >= 0 && index_x_num < Define.STAGE_MAX_X)
                             {
                                 if (m_block.block_date[y,x])
                                 {
@@ -207,14 +184,14 @@ public class gamemgr : MonoBehaviour
                     }
                 }
 
-                for (int y = 0; y < STAGE_MAX_Y + BLOCK_MAX_Y; y++)
+                for (int y = 0; y < Define.STAGE_MAX_Y + Define.BLOCK_MAX_Y; y++)
                 {
-                    for (int x = 0; x < STAGE_MAX_X; x++)
+                    for (int x = 0; x < Define.STAGE_MAX_X; x++)
                     {
                         if (!block_stage[y,x].draw_frag) break;
 
 
-                        if (x == STAGE_MAX_X - 1)
+                        if (x == Define.STAGE_MAX_X - 1)
                         {
                             score += 1000;
                             tumeru(y);
@@ -222,9 +199,9 @@ public class gamemgr : MonoBehaviour
                     }
                 }
 
-                for (int y = 0; y < BLOCK_MAX_Y; y++)
+                for (int y = 0; y < Define.BLOCK_MAX_Y; y++)
                 {
-                    for (int x = 0; x < STAGE_MAX_X; x++)
+                    for (int x = 0; x < Define.STAGE_MAX_X; x++)
                     {
                         if (block_stage[y,x].draw_frag) gane_over = true;
 
@@ -246,9 +223,9 @@ public class gamemgr : MonoBehaviour
         m_block.v = new Vector2Int();
 
         //描画用に変換
-        for (int y = 0; y < STAGE_MAX_Y; y++)
+        for (int y = 0; y < Define.STAGE_MAX_Y; y++)
         {
-            for (int x = 0; x < STAGE_MAX_X; x++)
+            for (int x = 0; x < Define.STAGE_MAX_X; x++)
             {
                 block_draw[0,y, x] = block_stage[y + 5, x];
             }
@@ -261,8 +238,7 @@ public class gamemgr : MonoBehaviour
                 for (int x = 0; x < 5; x++)
                 {
                     int index_x_num = (m_block.pos.x - 2) + x;
-                    //block_draw[0,y, x] = m_block_date[y, x];
-                    if (index_x_num >= 0 && index_x_num < STAGE_MAX_X)
+                    if (index_x_num >= 0 && index_x_num < Define.STAGE_MAX_X)
                     {
                         if (m_block.block_date[y,x])
                         {
@@ -274,12 +250,20 @@ public class gamemgr : MonoBehaviour
             }
         }
 
-        draw();
+        //draw();
+        for (int y = 0; y < Define.STAGE_MAX_Y; y++)
+        {
+            for (int x = 0; x < Define.STAGE_MAX_X; x++)
+            {
+                stage_obj.GetComponent<stage_mgr>().block_draw[y,x] = block_draw[0,y,x];
+            }
+           
+        }
     }
     public void wait_block()
     {
         m_block.move_time += Time.deltaTime;
-        if (m_block.move_time >= MOVE_TIME_MAX)
+        if (m_block.move_time >= Define.MOVE_TIME_MAX)
         {
             m_block.move_time = 0.0f;
             m_block.v.y = 1;
@@ -287,21 +271,14 @@ public class gamemgr : MonoBehaviour
     }
     public void spawn_block()
     {
-        
-
         m_block.block_pos.Clear();
 
         //ブロック生成
-        for (int y = 0; y < BLOCK_MAX_Y; y++)
+        for (int y = 0; y < Define.BLOCK_MAX_Y; y++)
         {
-            for (int x = 0; x < BLOCK_MAX_X; x++)
+            for (int x = 0; x < Define.BLOCK_MAX_X; x++)
             {
-                
-                //m_block.block_date[y, x] = block_type[next[0], y, x];
-
                 m_block.block_date[y, x] = n_block[next[0]].block_date[y, x];
-               
-
                 if (m_block.block_date[y,x])
                 {
                     m_block.block_pos.Add(new Vector2Int(x - 2,y - 2));
@@ -314,11 +291,10 @@ public class gamemgr : MonoBehaviour
 
         //初期位置設定
         m_block.pos.y = 2;
-        m_block.pos.x = STAGE_MAX_X / 2;
-
+        m_block.pos.x = Define.STAGE_MAX_X / 2;
 
         //乱数生成
-        int rand = Random.Range(0, BLOCK_TYPE);
+        int rand = Random.Range(0, Define.BLOCK_TYPE);
         for(int i = 1; i < 5; i++)
         {
             next[i - 1] = next[i];
@@ -332,12 +308,12 @@ public class gamemgr : MonoBehaviour
         m_block.block_pos.Clear();
 
         //ブロック生成
-        for (int y = 0; y < BLOCK_MAX_Y; y++)
+        for (int y = 0; y < Define.BLOCK_MAX_Y; y++)
         {
-            for (int x = 0; x < BLOCK_MAX_X; x++)
+            for (int x = 0; x < Define.BLOCK_MAX_X; x++)
             {
 
-                //m_block.block_date[y, x] = block_type[next[0], y, x];
+              
 
                 m_block.block_date[y, x] = n_block[hold].block_date[y, x];
 
@@ -367,7 +343,7 @@ public class gamemgr : MonoBehaviour
                 i = 0;
                 continue;
             }
-            else if (a.x >= STAGE_MAX_X)
+            else if (a.x >= Define.STAGE_MAX_X)
             {
                 m_block.pos.x--;
                 i = 0;
@@ -436,12 +412,12 @@ public class gamemgr : MonoBehaviour
                 {
                     m_block.v.x = 0;
                 }
-                if (a2.x >= STAGE_MAX_X)
+                if (a2.x >= Define.STAGE_MAX_X)
                 {
                     m_block.v.x = 0;
                 }
 
-                if (a2.y >= STAGE_MAX_Y + BLOCK_MAX_Y)
+                if (a2.y >= Define.STAGE_MAX_Y + Define.BLOCK_MAX_Y)
                 {
                     m_block.v.y = 0;
                     return true;
@@ -468,7 +444,7 @@ public class gamemgr : MonoBehaviour
        
         for (int y = 0; y < 20; y++)
         {
-            for (int x = 0; x < STAGE_MAX_X; x++)
+            for (int x = 0; x < Define.STAGE_MAX_X; x++)
             {
                 //生成
                 if(block_draw[0,y,x].draw_frag && !block_draw[1, y, x].draw_frag)
@@ -552,27 +528,27 @@ public class gamemgr : MonoBehaviour
 
         System.Array.Copy(m_block.block_date, inst, m_block.block_date.Length);
 
-        for (int y = 0; y < BLOCK_MAX_Y; y++)
+        for (int y = 0; y < Define.BLOCK_MAX_Y; y++)
         {
-            for (int x = 0; x < BLOCK_MAX_X; x++)
+            for (int x = 0; x < Define.BLOCK_MAX_X; x++)
             {
 
                 if (right_f)
                 {
-                    m_block.block_date[y,x] = inst[(BLOCK_MAX_Y - 1) - x,y];
+                    m_block.block_date[y,x] = inst[(Define.BLOCK_MAX_Y - 1) - x,y];
                 }
                 else
                 {
-                    m_block.block_date[y,x] = inst[x,(BLOCK_MAX_X - 1) - y];
+                    m_block.block_date[y,x] = inst[x,(Define.BLOCK_MAX_X - 1) - y];
                 }
             }
         }
 
         m_block.block_pos.Clear();
 
-        for (int y = 0; y < BLOCK_MAX_Y; y++)
+        for (int y = 0; y < Define.BLOCK_MAX_Y; y++)
         {
-            for (int x = 0; x < BLOCK_MAX_X; x++)
+            for (int x = 0; x < Define.BLOCK_MAX_X; x++)
             {
                 if (m_block.block_date[y,x])
                 {
@@ -591,7 +567,7 @@ public class gamemgr : MonoBehaviour
                 i = 0;
                 continue;
             }
-            else if (a.x >= STAGE_MAX_X)
+            else if (a.x >= Define.STAGE_MAX_X)
             {
                 m_block.pos.x--;
                 i = 0;
@@ -647,18 +623,18 @@ public class gamemgr : MonoBehaviour
 
     void tumeru(int d_y)
     {
-        for (int y = d_y; y > BLOCK_MAX_Y; y--)
+        for (int y = d_y; y > Define.BLOCK_MAX_Y; y--)
         {
-            for (int x = 0; x < STAGE_MAX_X; x++)
+            for (int x = 0; x < Define.STAGE_MAX_X; x++)
             {
                 block_stage[y,x] = block_stage[y - 1,x];
             }
         }
 
         //削除
-        for (int i = 0; i < STAGE_MAX_X; i++)
+        for (int i = 0; i < Define.STAGE_MAX_X; i++)
         {
-            block_stage[BLOCK_MAX_Y,i].draw_frag = false;
+            block_stage[Define.BLOCK_MAX_Y,i].draw_frag = false;
         }
 
     }
