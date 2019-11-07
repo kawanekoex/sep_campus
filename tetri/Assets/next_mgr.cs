@@ -26,9 +26,9 @@ public class next_mgr : MonoBehaviour
     void Update()
     {
         
-        if (g_mgr.GetComponent<gamemgr>().next[index] != inst)
+        if (g_mgr.GetComponent<Tetris_mgr>().next[index] != inst)
         {
-            inst = g_mgr.GetComponent<gamemgr>().next[index];
+            inst = g_mgr.GetComponent<Tetris_mgr>().next[index];
             GameObject ChildObject;
             ChildObject = transform.GetChild(1).gameObject;
 
