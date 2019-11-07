@@ -30,15 +30,15 @@ public struct Next_block
     public bool[,] block_date;
 }
 
-public class gamemgr : MonoBehaviour
+public class Tetris_mgr : MonoBehaviour
 {
     //描画用
     private block[,,] block_draw;
     //判定用
-    private block[,] block_stage;
+    public block[,] block_stage;
 
     //動いてるブロック
-    Move_Block m_block;
+    public Move_Block m_block;
 
     public bool gane_over;
     public int[] next = new int[5];
@@ -46,71 +46,18 @@ public class gamemgr : MonoBehaviour
     private int score;
     private int draw_score;
 
-    private Next_block[] n_block = new Next_block[7];
+    //AI処理用
+    public Define.STEP ai_step;
 
-     
-    //private bool[,,] block_type = new bool[7,5,5]{
+    public Next_block[] n_block = new Next_block[7];
 
-    //    {
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false},
-    //        {false,true,true,true,true},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    },
-    //     {
-    //        {false,false,false,false,false},
-    //        {false,true,false,false,false},
-    //        {false,true,true,true,false},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    },
-    //      {
-    //        {false,false,false,false,false},
-    //        {false,false,false,true,false},
-    //        {false,true,true,true,false},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    },
-    //       {
-    //        {false,false,false,false,false},
-    //        {false,true,true,false,false},
-    //        {false,true,true,false,false},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    },
-    //       {
-    //        {false,false,false,false,false},
-    //        {false,false,true,true,false},
-    //        {false,true,true,false,false},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    },
-    //       {
-    //        {false,false,false,false,false},
-    //        {false,false,true,false,false},
-    //        {false,true,true,true,false},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    },
-    //        {
-    //        {false,false,false,false,false},
-    //        {false,true,true,false,false},
-    //        {false,false,true,true,false},
-    //        {false,false,false,false,false},
-    //        {false,false,false,false,false}
-    //    }
+    //アクションインターフェース
+    public List<Define.ACT> act = new List<Define.ACT>();
 
-    //};
+    //private float frame;
 
     
-   
-    
-  //private float frame;
 
-
-  [SerializeField]
-    private GameObject draw_obj;
     [SerializeField]
     private GameObject stage_obj;
     //[SerializeField]
@@ -155,7 +102,7 @@ public class gamemgr : MonoBehaviour
     {
         time += Time.deltaTime;
         //m_block.move_time += Time.deltaTime;
-        key_input();
+        act_interface();
         wait_block();
 
         if (wall_judg_block())
@@ -218,7 +165,7 @@ public class gamemgr : MonoBehaviour
             m_block.pos += m_block.v;
         }
 
-
+        
 
         m_block.v = new Vector2Int();
 
@@ -250,7 +197,7 @@ public class gamemgr : MonoBehaviour
             }
         }
 
-        //draw();
+        score_object.GetComponent<score_text_mgr>().score = score;
         for (int y = 0; y < Define.STAGE_MAX_Y; y++)
         {
             for (int x = 0; x < Define.STAGE_MAX_X; x++)
@@ -289,6 +236,8 @@ public class gamemgr : MonoBehaviour
         m_block.co = n_block[next[0]].co;
         m_block.id = next[0];
 
+
+        ai_step = Define.STEP.SPWAN;
         //初期位置設定
         m_block.pos.y = 2;
         m_block.pos.x = Define.STAGE_MAX_X / 2;
@@ -358,44 +307,47 @@ public class gamemgr : MonoBehaviour
             }
         }
     }
-    public void key_input()
+    public void act_interface()
     {
-        if (Input.GetKey(KeyCode.S))
+        for (int i = 0; i < act.Count; i++)
         {
-            m_block.move_time += Time.deltaTime * 20.0f;
-            m_block.wait_time = 1.0f;
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            m_block.v.x--;
-            m_block.wait_time = 0;
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            m_block.v.x++;
-            m_block.wait_time = 0;
-        }
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            kaitenn(false);
-        }
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            kaitenn(true);
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            if (hold != -1)
+            if (act[i] == Define.ACT.DOWN)
             {
-                block_hold();
+                m_block.move_time += Time.deltaTime * 20.0f;
+                m_block.wait_time = 1.0f;
             }
-            else
+            else if (act[i] == Define.ACT.LEFT)
             {
-                hold = m_block.id;
-                Vector2Int inst = m_block.pos;
-                spawn_block();
-                m_block.pos = inst;
+                m_block.v.x--;
+                m_block.wait_time = 0;
+            }
+            else if (act[i] == Define.ACT.RIGHT)
+            {
+                m_block.v.x++;
+                m_block.wait_time = 0;
+            }
+
+            else if (act[i] == Define.ACT.LEFT_ROLL)
+            {
+                kaitenn(false);
+            }
+            else if (act[i] == Define.ACT.RIGHT_ROLL)
+            {
+                kaitenn(true);
+            }
+            else if (act[i] == Define.ACT.HOLD)
+            {
+                if (hold != -1)
+                {
+                    block_hold();
+                }
+                else
+                {
+                    hold = m_block.id;
+                    Vector2Int inst = m_block.pos;
+                    spawn_block();
+                    m_block.pos = inst;
+                }
             }
         }
     }
@@ -437,90 +389,6 @@ public class gamemgr : MonoBehaviour
 
         }
         return false;
-    }
-    public void draw()
-    {
-        GameObject[] b = GameObject.FindGameObjectsWithTag("Block");
-       
-        for (int y = 0; y < 20; y++)
-        {
-            for (int x = 0; x < Define.STAGE_MAX_X; x++)
-            {
-                //生成
-                if(block_draw[0,y,x].draw_frag && !block_draw[1, y, x].draw_frag)
-                {
-                    block_draw[1, y, x].draw_frag = true;
-                    block_draw[1, y, x].co = block_draw[0, y, x].co;
-                    GameObject o = Instantiate(draw_obj, new Vector3(1.0f * x, -1.0f * y, 0.0f), Quaternion.identity);
-                    o.GetComponent<obj_mgr>().index = new Vector2Int(x, y);
-                    o.GetComponent<obj_mgr>().c = block_draw[1, y, x].co;
-                }
-                //削除
-                if (!block_draw[0, y, x].draw_frag && block_draw[1, y, x].draw_frag)
-                {
-                    block_draw[1, y, x].draw_frag = false;
-                    for (int i = 0; i < b.Length; i++)
-                    {
-                        Vector2Int inst = new Vector2Int(x, y);
-                        if (b[i].GetComponent<obj_mgr>().index == inst)
-                        {
-                            Destroy(b[i]);
-                        }
-                    }
-                }
-                //色変更
-                if(block_draw[0, y, x].co != block_draw[1, y, x].co)
-                {
-                    block_draw[1, y, x].co = block_draw[0, y, x].co;
-                    for (int i = 0; i < b.Length; i++)
-                    {
-                        Vector2Int inst = new Vector2Int(x, y);
-                        if (b[i].GetComponent<obj_mgr>().index == inst)
-                        {
-                            b[i].GetComponent<obj_mgr>().c = block_draw[1, y, x].co;
-                        }
-                    }
-                }
-
-            }
-        }
-
-        //テキスト
-        if (score > draw_score + 1000)
-        {
-            draw_score += 10;
-        }
-        else if (score > draw_score + 100)
-        {
-            draw_score += 5;
-        }
-        else if (score > draw_score)
-        {
-            draw_score++;
-        }
-        else
-        {
-            draw_score = score;
-        }
-        
-
-
-
-        float score_inst = draw_score;
-        int keta = 0;
-        while(score_inst >= 1.0f)
-        {
-            keta++;
-            score_inst /= 10.0f;
-        }
-
-        Text score_text = score_object.GetComponent<Text>();
-        score_text.text = "";
-        for(int i = 0;i<14 - keta; i++)
-        {
-            score_text.text += "0";
-        }
-        score_text.text += draw_score;
     }
     void kaitenn(bool right_f)
     {
@@ -644,54 +512,24 @@ public class gamemgr : MonoBehaviour
         n_block[0].block_date = new bool[5, 5]
         {
             {false,false,false,false,false},
-            { false,false,false,false,false},
-            { false,true,true,true,true},
+            { false,true,true,false,false},
+            { false,true,true,false,false},
             { false,false,false,false,false},
             { false,false,false,false,false}
         };
-        n_block[0].co = new Color(0.0f,1.0f, 1.0f, 1.0f);
+        n_block[0].co = new Color(1.0f,1.0f, 0.0f, 1.0f);
 
         n_block[1].block_date = new bool[5, 5]
       {
            {false,false,false,false,false},
-            {false,true,false,false,false},
-            {false,true,true,true,false},
-            {false,false,false,false,false},
-            {false,false,false,false,false}
+            {false,false,true,false,false},
+            {false,false,true,false,false},
+            {false,false,true,false,false},
+            {false,false,true,false,false}
       };
-        n_block[1].co = new Color(0.0f, 0.0f, 1.0f, 1.0f);
+        n_block[1].co = new Color(0.0f, 1.0f, 1.0f, 1.0f);
 
         n_block[2].block_date = new bool[5, 5]
-      {
-            {false,false,false,false,false},
-            {false,false,false,true,false},
-            {false,true,true,true,false},
-            {false,false,false,false,false},
-            {false,false,false,false,false}
-      };
-        n_block[2].co = new Color(1.0f, 0.5f, 0.0f, 1.0f);
-
-        n_block[3].block_date = new bool[5, 5]
-      {
-            {false,false,false,false,false},
-            {false,true,true,false,false},
-            {false,true,true,false,false},
-            {false,false,false,false,false},
-            {false,false,false,false,false}
-      };
-        n_block[3].co = new Color(1.0f, 1.0f, 0.0f, 1.0f);
-
-        n_block[4].block_date = new bool[5, 5]
-      {
-            {false,false,false,false,false},
-            {false,false,true,true,false},
-            {false,true,true,false,false},
-            {false,false,false,false,false},
-            {false,false,false,false,false}
-      };
-        n_block[4].co = new Color(0.0f, 1.0f, 0.0f, 1.0f);
-
-        n_block[5].block_date = new bool[5, 5]
       {
             {false,false,false,false,false},
             {false,false,true,false,false},
@@ -699,17 +537,47 @@ public class gamemgr : MonoBehaviour
             {false,false,false,false,false},
             {false,false,false,false,false}
       };
-        n_block[5].co = new Color(1.0f, 0.0f, 1.0f, 1.0f);
+        n_block[2].co = new Color(1.0f, 0.0f, 1.0f, 1.0f);
+
+        n_block[3].block_date = new bool[5, 5]
+      {
+            {false,false,false,false,false},
+            {false,false,false,false,false},
+            {false,true,true,false,false},
+            {false,false,true,true,false},
+            {false,false,false,false,false}
+      };
+        n_block[3].co = new Color(0.0f, 1.0f, 0.0f, 1.0f);
+
+        n_block[4].block_date = new bool[5, 5]
+      {
+            {false,false,false,false,false},
+            {false,false,false,false,false},
+            {false,false,true,true,false},
+            {false,true,true,false,false},
+            {false,false,false,false,false}
+      };
+        n_block[4].co = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+
+        n_block[5].block_date = new bool[5, 5]
+      {
+            {false,false,false,false,false},
+            {false,true,false,false,false},
+            {false,true,true,true,false},
+            {false,false,false,false,false},
+            {false,false,false,false,false}
+      };
+        n_block[5].co = new Color(1.0f, 0.5f, 0.0f, 1.0f);
 
         n_block[6].block_date = new bool[5, 5]
       {
             {false,false,false,false,false},
-            {false,true,true,false,false},
-            {false,false,true,true,false},
+            {false,false,false,true,false},
+            {false,true,true,true,false},
             {false,false,false,false,false},
             {false,false,false,false,false}
       };
-        n_block[6].co = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+        n_block[6].co = new Color(0.0f, 0.0f, 1.0f, 1.0f);
     }
 }
 

@@ -24,9 +24,9 @@ public class hold_mgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (g_mgr.GetComponent<gamemgr>().hold != inst)
+        if (g_mgr.GetComponent<Tetris_mgr>().hold != inst)
         {
-            inst = g_mgr.GetComponent<gamemgr>().hold;
+            inst = g_mgr.GetComponent<Tetris_mgr>().hold;
             GameObject ChildObject;
             ChildObject = transform.GetChild(1).gameObject;
 
