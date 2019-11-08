@@ -20,6 +20,7 @@ public struct block {
   
     public Color co;
     public bool draw_frag;
+    public int id;
 
 }
 
@@ -45,6 +46,8 @@ public class Tetris_mgr : MonoBehaviour
     public int hold;
     private int score;
     private int draw_score;
+    private ushort[] rand_num = new ushort[Define.RAND_NUM_MAX_SIZE];
+    private int rand_num_index;
 
     //AI処理用
     public Define.STEP ai_step;
@@ -85,11 +88,20 @@ public class Tetris_mgr : MonoBehaviour
         m_block.block_date = new bool[Define.BLOCK_MAX_Y, Define.BLOCK_MAX_X];
 
         Load();
-        for(int i = 0;i< 5; i++)
+        for(int i = 0;i< Define.RAND_NUM_MAX_SIZE; i++)
         {
             //乱数生成
-            int rand = Random.Range(0, Define.BLOCK_TYPE);
-            next[i] = rand;
+            rand_num[i] = (ushort)Random.Range(0, Define.BLOCK_TYPE);
+        }
+        rand_num_index = Random.Range(0, Define.RAND_NUM_MAX_SIZE);
+
+        for (int i = 0; i < 5; i++)
+        {
+            if(rand_num_index++ >= Define.RAND_NUM_MAX_SIZE - 1)
+            {
+                rand_num_index = 0;
+            }
+            next[i] = rand_num[rand_num_index];
         }
         //ブロック生成
         spawn_block();
@@ -100,6 +112,7 @@ public class Tetris_mgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gane_over) return;
         time += Time.deltaTime;
         //m_block.move_time += Time.deltaTime;
         act_interface();
@@ -125,6 +138,7 @@ public class Tetris_mgr : MonoBehaviour
                                 {
                                     block_stage[index_y_num,index_x_num].draw_frag = true;
                                     block_stage[index_y_num, index_x_num].co = m_block.co;
+                                    block_stage[index_y_num, index_x_num].id = m_block.id;
                                 }
                             }
                         }
@@ -191,6 +205,7 @@ public class Tetris_mgr : MonoBehaviour
                         {
                             block_draw[0,index_y_num,index_x_num].draw_frag = true;
                             block_draw[0, index_y_num, index_x_num].co = m_block.co;
+                            block_draw[0, index_y_num, index_x_num].id = m_block.id;
                         }
                     }
                 }
@@ -243,13 +258,13 @@ public class Tetris_mgr : MonoBehaviour
         m_block.pos.x = Define.STAGE_MAX_X / 2;
 
         //乱数生成
-        int rand = Random.Range(0, Define.BLOCK_TYPE);
+        //int rand = Random.Range(0, Define.BLOCK_TYPE);
         for(int i = 1; i < 5; i++)
         {
             next[i - 1] = next[i];
         }
-
-        next[4] = rand;
+        if (rand_num_index++ >= Define.RAND_NUM_MAX_SIZE - 1) rand_num_index = 0;
+        next[4] = rand_num[rand_num_index];
     }
 
     public void block_hold()
