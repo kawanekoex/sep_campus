@@ -6,17 +6,17 @@ using Common;
 
 public class origin_mgr : MonoBehaviour
 {
-	Vector3Int stage_size = new Vector3Int(10, 10, 10);
+	Vector3Int stage_size = new Vector3Int(5, 5, 5);
 	[SerializeField]
 	private GameObject draw_obj;
 	public Material[] num_mat = new Material[Define.NUM_MAT_MAX];
 	public Camera camera;
 	Block[,,] block;
-	int miss_count;
+	public int miss_count;
 	int correct_count;
 
-
-
+	public bool game_over;
+	public bool clear;
 
 	bool key_down;
 	// Start is called before the first frame update
@@ -57,8 +57,17 @@ public class origin_mgr : MonoBehaviour
 						obj.transform.localScale = transform.localScale;
 						obj.transform.parent = transform;
 						obj.transform.localPosition = new Vector3((1.0f * x) - (stage_size.x / 2),(1.0f * y) - (stage_size.y / 2), (1.0f * z) - (stage_size.z / 2));
-						obj.GetComponent<block_mgr>().block_mat = num_mat[block[z, y, x].hint];
-
+						block_mgr mgr = obj.GetComponent<block_mgr>();
+						mgr.block_mat = num_mat[block[z, y, x].hint];
+						mgr.data = block[z, y, x];
+						if (mgr.data.correct)
+						{
+							correct_count++;
+						}
+						else
+						{
+							miss_count++;
+						}
 					}
 
 
@@ -102,9 +111,25 @@ public class origin_mgr : MonoBehaviour
 		{
 			if (Input.GetMouseButtonDown(0))
 			{
-				Destroy(hit.collider.gameObject);
+				GameObject obj = hit.collider.gameObject;
+				block_mgr mgr = obj.GetComponent<block_mgr>();
+				if (!mgr.data.correct)
+				{
+					Destroy(hit.collider.gameObject);
+					miss_count--;
+				}
+				else
+				{
+					game_over = true;
+				}
+				
 			}
 			//Debug.Log(hit.collider.gameObject.transform.position);
+		}
+
+		if(miss_count <= 0)
+		{
+			clear = true;
 		}
 	}
 
