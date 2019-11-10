@@ -10,13 +10,14 @@ public class origin_mgr : MonoBehaviour
 	[SerializeField]
 	private GameObject draw_obj;
 	public Material[] num_mat = new Material[Define.NUM_MAT_MAX];
-	public Camera camera;
 	Block[,,] block;
-	public int miss_count;
-	int correct_count;
+	public int miss_count;	//残り不正解ブロック数
+	int correct_count;		//残り正解ブロック数
 
-	public bool game_over;
-	public bool clear;
+	public bool game_over;	//ゲームオーバーフラグ
+	public bool clear;		//クリアフラグ
+
+	public Ray ray;			//レイキャスト判定
 
 	bool key_down;
 	// Start is called before the first frame update
@@ -83,9 +84,8 @@ public class origin_mgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Vector3 rot = transform.eulerAngles;
 
-		//回転
+		/*//回転
 		if (Input.GetKey(KeyCode.W))
 		{
 
@@ -104,14 +104,30 @@ public class origin_mgr : MonoBehaviour
 			transform.Rotate(new Vector3(0, 5, 0), Space.World);
 		}
 
+		//拡縮
+		float scroll = Input.GetAxis("Mouse ScrollWheel");
+		Vector3 pos_inst = camera.transform.position + new Vector3(0, 0, scroll * Define.ZOOM_SPEED);
+		if (scroll > 0 && pos_inst.z > Define.ZOOM_MAX)
+		{
+			pos_inst.z = Define.ZOOM_MAX;
+		}
+		else if (scroll < 0 && pos_inst.z < Define.ZOOM_MIN)
+		{
+			pos_inst.z = Define.ZOOM_MIN;
+		}
+		camera.transform.position = pos_inst;
 
-		Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+
+		Ray ray = camera.ScreenPointToRay(Input.mousePosition);*/
+
 		RaycastHit hit;
 		if (Physics.Raycast(ray, out hit))
 		{
+			GameObject obj = hit.collider.gameObject;
+			obj.GetComponent<block_mgr>().hit_frag = true;
 			if (Input.GetMouseButtonDown(0))
 			{
-				GameObject obj = hit.collider.gameObject;
+				
 				block_mgr mgr = obj.GetComponent<block_mgr>();
 				if (!mgr.data.correct)
 				{
