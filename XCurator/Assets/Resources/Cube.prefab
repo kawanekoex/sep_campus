@@ -105,5 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda5576d33285c041b73715c14c24a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: {x: 0, y: 0}
+  index: {x: 0, y: 0, z: 0}
   block_mat: {fileID: 0}
+  hit_frag: 0

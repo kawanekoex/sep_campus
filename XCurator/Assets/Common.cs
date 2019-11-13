@@ -8,6 +8,7 @@ namespace Common
 		public bool correct;       //正解
 		public bool draw_frag;
 		public int hint;
+		public GameObject obj;
 	}
 
 	public static class Define

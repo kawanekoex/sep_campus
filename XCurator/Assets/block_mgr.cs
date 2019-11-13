@@ -5,7 +5,7 @@ using Common;
 
 public class block_mgr : MonoBehaviour
 {
-    public Vector2Int index;
+    public Vector3Int index;
     public Material block_mat;
 	public Block data;
 	public bool hit_frag;
@@ -25,7 +25,7 @@ public class block_mgr : MonoBehaviour
     {
 		if (hit_frag)
 		{
-			meshRenderer.material.color = new Color(1, 1, 1, 0.5f);
+			meshRenderer.material.color = new Color(1, 0.4f, 0.4f, 1.0f);
 		}
 		else
 		{
