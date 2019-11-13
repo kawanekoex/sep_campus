@@ -6,11 +6,11 @@ using Common;
 
 public class origin_mgr : MonoBehaviour
 {
-	Vector3Int stage_size = new Vector3Int(5, 5, 5);
+	public Vector3Int stage_size = new Vector3Int(10, 10, 10);
 	[SerializeField]
 	private GameObject draw_obj;
 	public Material[] num_mat = new Material[Define.NUM_MAT_MAX];
-	Block[,,] block;
+	public Block[,,] block;
 	public int miss_count;	//残り不正解ブロック数
 	int correct_count;		//残り正解ブロック数
 
@@ -26,7 +26,7 @@ public class origin_mgr : MonoBehaviour
 		block = new Block[stage_size.z, stage_size.y, stage_size.x];
 
 		block[0, 0, 0].correct = true;
-		block[0, 0, 1].correct = true;
+		block[1, 0, 0].correct = true;
 		miss_count = 0;
 		correct_count = 0;
 		//ヒント判定
@@ -54,13 +54,15 @@ public class origin_mgr : MonoBehaviour
 
 					if (block[z, y, x].draw_frag)
 					{
-						GameObject obj = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
-						obj.transform.localScale = transform.localScale;
-						obj.transform.parent = transform;
-						obj.transform.localPosition = new Vector3((1.0f * x) - (stage_size.x / 2),(1.0f * y) - (stage_size.y / 2), (1.0f * z) - (stage_size.z / 2));
-						block_mgr mgr = obj.GetComponent<block_mgr>();
+						
+						block[z,y,x].obj = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
+						block[z, y, x].obj.transform.localScale = transform.localScale;
+						block[z, y, x].obj.transform.parent = transform;
+						block[z, y, x].obj.transform.localPosition = new Vector3((1.0f * x) - (stage_size.x / 2), (1.0f * y) - (stage_size.y / 2), (1.0f * z) - (stage_size.z / 2));
+						block_mgr mgr = block[z, y, x].obj.GetComponent<block_mgr>();
 						mgr.block_mat = num_mat[block[z, y, x].hint];
 						mgr.data = block[z, y, x];
+						mgr.index = new Vector3Int(x, y, z);
 						if (mgr.data.correct)
 						{
 							correct_count++;
@@ -70,8 +72,6 @@ public class origin_mgr : MonoBehaviour
 							miss_count++;
 						}
 					}
-
-
 				}
 			}
 		}
@@ -131,6 +131,8 @@ public class origin_mgr : MonoBehaviour
 				block_mgr mgr = obj.GetComponent<block_mgr>();
 				if (!mgr.data.correct)
 				{
+					Vector3Int index_pos = hit.collider.gameObject.GetComponent<block_mgr>().index;
+					block[index_pos.z, index_pos.y, index_pos.x].draw_frag = false;
 					Destroy(hit.collider.gameObject);
 					miss_count--;
 				}
@@ -147,6 +149,8 @@ public class origin_mgr : MonoBehaviour
 		{
 			clear = true;
 		}
+
+		//Debug.Log(block[0,0,0].obj.transform.position);
 	}
 
 
