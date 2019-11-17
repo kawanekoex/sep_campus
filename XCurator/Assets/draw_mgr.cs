@@ -5,7 +5,7 @@ using UnityEngine;
 public class draw_mgr : MonoBehaviour
 {
 	private origin_mgr mgr;
-	public Camera cam;
+	//public Camera cam;
 	// Start is called before the first frame update
 	void Start()
     {
