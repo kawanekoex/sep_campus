@@ -25,7 +25,7 @@ public class draw_mgr : MonoBehaviour
 					{
 						continue;
 					}
-					if (mgr.block[z, y, x].obj.transform.up.z < 0.1f)
+					if (mgr.block[z, y, x].obj.transform.up.z > 0.1f)
 					{ 
 						//上
 						if (y + 1 < mgr.stage_size.y)
@@ -42,7 +42,7 @@ public class draw_mgr : MonoBehaviour
 							continue;
 						}
 					}
-					if (mgr.block[z, y, x].obj.transform.up.z > -0.1f)
+					if (mgr.block[z, y, x].obj.transform.up.z < -0.1f)
 					{
 						//下
 						if (y - 1 >= 0)
@@ -61,7 +61,7 @@ public class draw_mgr : MonoBehaviour
 					}
 				
 
-					if (mgr.block[z, y, x].obj.transform.right.z < 0.1f)
+					if (mgr.block[z, y, x].obj.transform.right.z > 0.1f)
 					{
 						//右
 						if (x + 1 < mgr.stage_size.x)
@@ -79,7 +79,7 @@ public class draw_mgr : MonoBehaviour
 						}
 						
 					}
-					if (mgr.block[z, y, x].obj.transform.right.z > -0.1f)
+					if (mgr.block[z, y, x].obj.transform.right.z < -0.1f)
 					{
 						//左
 						if (x - 1 >= 0)
@@ -96,7 +96,7 @@ public class draw_mgr : MonoBehaviour
 							continue;
 						}
 					}
-					if (mgr.block[z, y, x].obj.transform.forward.z < 0.1f)
+					if (mgr.block[z, y, x].obj.transform.forward.z  >0.1f)
 					{
 						//後ろ
 						if (z + 1 < mgr.stage_size.z)
@@ -113,7 +113,7 @@ public class draw_mgr : MonoBehaviour
 							continue;
 						}
 					}
-					if (mgr.block[z, y, x].obj.transform.forward.z > -0.1f)
+					if (mgr.block[z, y, x].obj.transform.forward.z < -0.1f)
 					{
 						if (z - 1 >= 0)
 						{
