@@ -11,7 +11,7 @@ public class origin_mgr : MonoBehaviour
 	[SerializeField]
 	private GameObject draw_obj;
 	public Material[] num_mat = new Material[Define.NUM_MAT_MAX];
-	public Block[,,] block = new Block[5,5,5];
+	public Block[,,] block;
 	public int miss_count;	//残り不正解ブロック数
 	int correct_count;		//残り正解ブロック数
 
@@ -26,58 +26,58 @@ public class origin_mgr : MonoBehaviour
 	{
 		block = new Block[stage_size.z, stage_size.y, stage_size.x];
 
-		block[0, 0, 0].correct = false;
-		block[1, 0, 0].correct = true;
-		miss_count = 0;
-		correct_count = 0;
-		//ヒント判定
-		for (int z = 0; z < stage_size.z; z++)
-		{
-			for (int y = 0; y < stage_size.y; y++)
-			{
-				for (int x = 0; x < stage_size.x; x++)
-				{
-					hint_counter(new Vector3Int(x, y, z));
-					block[z,y,x].draw_frag = true;
-				}
+		//block[0, 0, 0].correct = false;
+		//block[1, 0, 0].correct = true;
+		//miss_count = 0;
+		//correct_count = 0;
+		////ヒント判定
+		//for (int z = 0; z < stage_size.z; z++)
+		//{
+		//	for (int y = 0; y < stage_size.y; y++)
+		//	{
+		//		for (int x = 0; x < stage_size.x; x++)
+		//		{
+		//			hint_counter(new Vector3Int(x, y, z));
+		//			block[z,y,x].draw_frag = true;
+		//		}
 
-			}
-		}
-
-
-		//オブジェクト生成
-		for (int z = 0; z < stage_size.z; z++)
-		{
-			for (int y = 0; y < stage_size.y; y++)
-			{
-				for (int x = 0; x < stage_size.x; x++)
-				{
-
-					if (block[z, y, x].draw_frag)
-					{
-						
-						block[z,y,x].obj = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
-						block[z, y, x].obj.transform.localScale = transform.localScale;
-						block[z, y, x].obj.transform.parent = transform;
-						block[z, y, x].obj.transform.localPosition = new Vector3((1.0f * x) - (stage_size.x / 2), (1.0f * y) - (stage_size.y / 2), (1.0f * z) - (stage_size.z / 2));
-						block_mgr mgr = block[z, y, x].obj.GetComponent<block_mgr>();
-						mgr.block_mat = num_mat[block[z, y, x].hint];
-						mgr.data = block[z, y, x];
-						mgr.index = new Vector3Int(x, y, z);
-						if (mgr.data.correct)
-						{
-							correct_count++;
-						}
-						else
-						{
-							miss_count++;
-						}
-					}
-				}
-			}
-		}
+		//	}
+		//}
 
 
+		////オブジェクト生成
+		//for (int z = 0; z < stage_size.z; z++)
+		//{
+		//	for (int y = 0; y < stage_size.y; y++)
+		//	{
+		//		for (int x = 0; x < stage_size.x; x++)
+		//		{
+
+		//			if (block[z, y, x].draw_frag)
+		//			{
+
+		//				block[z,y,x].obj = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
+		//				block[z, y, x].obj.transform.localScale = transform.localScale;
+		//				block[z, y, x].obj.transform.parent = transform;
+		//				block[z, y, x].obj.transform.localPosition = new Vector3((1.0f * x) - (stage_size.x / 2), (1.0f * y) - (stage_size.y / 2), (1.0f * z) - (stage_size.z / 2));
+		//				block_mgr mgr = block[z, y, x].obj.GetComponent<block_mgr>();
+		//				mgr.block_mat = num_mat[block[z, y, x].hint];
+		//				mgr.data = block[z, y, x];
+		//				mgr.index = new Vector3Int(x, y, z);
+		//				if (mgr.data.correct)
+		//				{
+		//					correct_count++;
+		//				}
+		//				else
+		//				{
+		//					miss_count++;
+		//				}
+		//			}
+		//		}
+		//	}
+		//}
+
+		load();
 
 
     }
@@ -209,7 +209,7 @@ public class origin_mgr : MonoBehaviour
 				{
 					bw.Write(block[z, y, x].correct);
 					bw.Write(block[z, y, x].draw_frag);
-					bw.Write(block[z, y, x].hint);
+					//bw.Write(block[z, y, x].hint);
 
 				}
 			}
@@ -258,7 +258,7 @@ public class origin_mgr : MonoBehaviour
 
 					block[z, y, x].correct = br.ReadBoolean();
 					block[z, y, x].draw_frag = br.ReadBoolean();
-					block[z, y, x].hint = br.ReadInt32();
+					//block[z, y, x].hint = br.ReadInt32();
 
 					//オブジェクト生成
 					if (block[z, y, x].draw_frag)
@@ -269,7 +269,7 @@ public class origin_mgr : MonoBehaviour
 						block[z, y, x].obj.transform.parent = transform;
 						block[z, y, x].obj.transform.localPosition = new Vector3((1.0f * x) - (stage_size.x / 2), (1.0f * y) - (stage_size.y / 2), (1.0f * z) - (stage_size.z / 2));
 						block_mgr mgr = block[z, y, x].obj.GetComponent<block_mgr>();
-						mgr.block_mat = num_mat[block[z, y, x].hint];
+						
 						mgr.data = block[z, y, x];
 						mgr.index = new Vector3Int(x, y, z);
 						if (mgr.data.correct)
@@ -285,6 +285,20 @@ public class origin_mgr : MonoBehaviour
 			}
 		}
 
+		//ヒント判定
+		for (int z = 0; z < stage_size.z; z++)
+		{
+			for (int y = 0; y < stage_size.y; y++)
+			{
+				for (int x = 0; x < stage_size.x; x++)
+				{
+					block_mgr mgr = block[z, y, x].obj.GetComponent<block_mgr>();
+					hint_counter(new Vector3Int(x, y, z));
+					mgr.block_mat = num_mat[block[z, y, x].hint];
+				}
+
+			}
+		}
 		//k.correct = br.ReadBoolean();
 		//k.draw_frag = br.ReadBoolean();
 
