@@ -30,6 +30,12 @@ public class button_mgr : MonoBehaviour
 		StartCoroutine(ExecuteChangeScene());
 	}
 
+	public void change_window()
+	{
+
+
+
+	}
 	IEnumerator ExecuteChangeScene()
 	{
 		while (canvasGroup.alpha > 0)

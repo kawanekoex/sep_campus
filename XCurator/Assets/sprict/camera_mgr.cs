@@ -36,7 +36,7 @@ public class camera_mgr : MonoBehaviour
 			verRot.transform.localPosition -= transform.right * move_speed * Time.deltaTime;
 		}
 		
-		if (Input.GetMouseButton(1))
+		if (Input.GetKey(KeyCode.Space))
 		{
 			Cursor.visible = false;
 			Cursor.lockState = CursorLockMode.Locked;
@@ -55,8 +55,8 @@ public class camera_mgr : MonoBehaviour
 			//	transform.eulerAngles = v_inst;
 			//}
 			//if(horRot.transform.Rotate)
-			Debug.Log(Y_Rotation);
-			Debug.Log(transform.rotation.eulerAngles);
+			//Debug.Log(Y_Rotation);
+			//Debug.Log(transform.rotation.eulerAngles);
 		}
 		else
 		{
