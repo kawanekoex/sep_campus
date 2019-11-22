@@ -10,6 +10,8 @@ public class origin_mgr : MonoBehaviour
 	public Vector3Int stage_size = new Vector3Int(10, 10, 10);
 	[SerializeField]
 	private GameObject draw_obj;
+	[SerializeField]
+	private GameObject ef_obj;
 	public Material[] num_mat = new Material[Define.NUM_MAT_MAX];
 	public Block[,,] block;
 	public int miss_count;	//残り不正解ブロック数
@@ -128,7 +130,7 @@ public class origin_mgr : MonoBehaviour
 			obj.GetComponent<block_mgr>().hit_frag = true;
 			if (Input.GetMouseButtonDown(0))
 			{
-				
+				Instantiate(ef_obj, hit.point, Quaternion.identity);
 				block_mgr mgr = obj.GetComponent<block_mgr>();
 				if (!mgr.data.correct)
 				{
