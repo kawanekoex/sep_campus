@@ -4,19 +4,34 @@ using UnityEngine;
 using Common;
 using System.IO;
 
+public class block_log
+{
+	public bool del_frag;
+	public Vector3Int index_pos;
+
+	public block_log(bool a,Vector3Int b)
+	{
+		del_frag = a;
+		index_pos = b;
+	}
+}
+
+
+
 public class edito_mgr : MonoBehaviour
 {
 	public Ray ray;         //レイキャスト判定
-	public static Vector3Int stage_size;
-	public Camera camera;
+	public static Vector3Int stage_size = new Vector3Int(5,5,5);
+	public Camera m_camera;
 	public Material mat;
 	[SerializeField]
 	private GameObject draw_obj;
 	public Block[,,] block;
+	public List<block_log> b_log = new List<block_log>();
 	// Start is called before the first frame update
 	void Start()
     {
-		stage_size.Set(5, 5, 5);
+		//stage_size.Set(5, 5, 5);
 		block = new Block[stage_size.z, stage_size.y, stage_size.x];
 
 		//オブジェクト生成
@@ -43,7 +58,7 @@ public class edito_mgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		ray = camera.ScreenPointToRay(Input.mousePosition);
+		ray = m_camera.ScreenPointToRay(Input.mousePosition);
 
 		RaycastHit hit;
 		if (Physics.Raycast(ray, out hit))
@@ -129,16 +144,23 @@ public class edito_mgr : MonoBehaviour
 				block_mgr mgr = obj.GetComponent<block_mgr>();
 				Vector3Int index_pos = hit.collider.gameObject.GetComponent<block_mgr>().index;
 				block[index_pos.z, index_pos.y, index_pos.x].draw_frag = false;
+				b_log.Add(new block_log(true, index_pos));
 				Destroy(hit.collider.gameObject);
 				
 			}
 			//Debug.Log(hit.collider.gameObject.transform.position);
 		}
 
+
+		if(b_log.Count > 20)
+		{
+			b_log.RemoveAt(0);
+		}
 	}
 
 	private void set_block(Vector3Int set_index)
 	{
+		b_log.Add(new block_log(false,set_index));
 		block[set_index.z, set_index.y, set_index.x].draw_frag = true;
 		block[set_index.z, set_index.y, set_index.x].obj = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
 		block[set_index.z, set_index.y, set_index.x].obj.transform.localScale = transform.localScale;
@@ -190,5 +212,33 @@ public class edito_mgr : MonoBehaviour
 		}
 
 		fs.Close();
+	}
+
+	public void back()
+	{
+		int max_index = b_log.Count - 1;
+
+		if (max_index < 0) return;
+		//生成
+		if (b_log[max_index].del_frag)
+		{
+			block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].draw_frag = true;
+			block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj = Instantiate(draw_obj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
+			block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj.transform.localScale = transform.localScale;
+			block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj.transform.parent = transform;
+			block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj.transform.localPosition = new Vector3((1.0f * b_log[max_index].index_pos.x) - (stage_size.x / 2), (1.0f * b_log[max_index].index_pos.y) - (stage_size.y / 2), (1.0f * b_log[max_index].index_pos.z) - (stage_size.z / 2));
+			block_mgr mgr_c = block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj.GetComponent<block_mgr>();
+			mgr_c.block_mat = mat;
+			mgr_c.data = block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x];
+			mgr_c.index = new Vector3Int(b_log[max_index].index_pos.x, b_log[max_index].index_pos.y, b_log[max_index].index_pos.z);
+		}
+		else
+		{
+			//block_mgr mgr = obj.GetComponent<block_mgr>();
+			//Vector3Int index_pos = hit.collider.gameObject.GetComponent<block_mgr>().index;
+			block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].draw_frag = false;
+			Destroy(block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj);
+		}
+		b_log.RemoveAt(max_index);
 	}
 }
