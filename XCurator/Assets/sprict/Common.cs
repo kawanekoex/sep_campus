@@ -40,6 +40,12 @@ namespace Common
 			LEFT
 		}
 
+		public enum CANVAS_NUM
+		{
+			MAIN,
+			MAT_SET,
+			MAX_SIZE
+		}
 
 		
 

@@ -28,11 +28,14 @@ public class edito_mgr : MonoBehaviour
 	private GameObject draw_obj;
 	public Block[,,] block;
 	public List<block_log> b_log = new List<block_log>();
+
+	public GameObject[] canvas = new GameObject[(int)Define.CANVAS_NUM.MAX_SIZE];
 	// Start is called before the first frame update
 	void Start()
     {
 		//stage_size.Set(5, 5, 5);
 		block = new Block[stage_size.z, stage_size.y, stage_size.x];
+
 
 		//オブジェクト生成
 		for (int z = 0; z < stage_size.z; z++)
@@ -67,7 +70,7 @@ public class edito_mgr : MonoBehaviour
 			obj.GetComponent<block_mgr>().hit_frag = true;
 
 
-			//削る
+			//置く
 			if (Input.GetMouseButtonDown(0))
 			{
 				Vector3 inst = hit.point - hit.collider.gameObject.transform.localPosition;
@@ -240,5 +243,13 @@ public class edito_mgr : MonoBehaviour
 			Destroy(block[b_log[max_index].index_pos.z, b_log[max_index].index_pos.y, b_log[max_index].index_pos.x].obj);
 		}
 		b_log.RemoveAt(max_index);
+	}
+	public void change_window(int num)
+	{
+		for(int i = 0; i < (int)Define.CANVAS_NUM.MAX_SIZE; i++)
+		{
+			canvas[i].SetActive(false);
+		}
+		canvas[num].SetActive(true);
 	}
 }
