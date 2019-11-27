@@ -12,6 +12,8 @@ public class origin_mgr : MonoBehaviour
 	private GameObject draw_obj;
 	[SerializeField]
 	private GameObject ef_obj;
+	[SerializeField]
+	private GameObject ef_b_obj;
 	public Material[] num_mat = new Material[Define.NUM_MAT_MAX];
 	public Block[,,] block;
 	public int miss_count;	//残り不正解ブロック数
@@ -131,11 +133,13 @@ public class origin_mgr : MonoBehaviour
 			if (Input.GetMouseButtonDown(0))
 			{
 				Instantiate(ef_obj, hit.point, Quaternion.identity);
+				//Instantiate(ef_b_obj, hit.point, Quaternion.identity);
 				block_mgr mgr = obj.GetComponent<block_mgr>();
 				if (!mgr.data.correct)
 				{
 					Vector3Int index_pos = hit.collider.gameObject.GetComponent<block_mgr>().index;
 					block[index_pos.z, index_pos.y, index_pos.x].draw_frag = false;
+					Instantiate(ef_b_obj, hit.collider.gameObject.transform.position, hit.collider.gameObject.transform.rotation);
 					Destroy(hit.collider.gameObject);
 					miss_count--;
 				}
