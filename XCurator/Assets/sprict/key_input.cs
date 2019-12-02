@@ -5,7 +5,7 @@ using Common;
 
 public class key_input : MonoBehaviour
 {
-	public Camera camera;
+	public Camera camera = new Camera();
 	private origin_mgr mgr;
 	private bool[] button_frag = new bool[4];
 	

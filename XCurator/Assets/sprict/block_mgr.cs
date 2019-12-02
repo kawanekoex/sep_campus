@@ -7,6 +7,7 @@ using DG.Tweening;
 public class block_mgr : MonoBehaviour
 {
     public Vector3Int index;
+	//public int list_index;
     public Material block_mat;
 	public Block data;
 	public bool hit_frag;
@@ -27,7 +28,7 @@ public class block_mgr : MonoBehaviour
     {
 		if (hit_frag)
 		{
-			meshRenderer.material.color = new Color(1, 0.4f, 0.4f, 1.0f);
+			//meshRenderer.material.color = new Color(1, 0.4f, 0.4f, 1.0f);
 			if (do_frag == false)
 			{
 				do_frag = true;
@@ -39,7 +40,7 @@ public class block_mgr : MonoBehaviour
 		{
 			do_frag = false;
 			transform.localScale = Vector3.one;
-			meshRenderer.material.color = new Color(1, 1, 1, 1);
+			//meshRenderer.material.color = new Color(1, 1, 1, 1);
 		}
 
 
