@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class origin_mgr : MonoBehaviour
 {
-	public Vector3Int stage_size = new Vector3Int(10, 10, 10);
+	public Vector3Int stage_size = new Vector3Int(0, 0, 0);
 	[SerializeField]
 	private GameObject draw_obj;
 	[SerializeField]
@@ -193,7 +193,7 @@ public class origin_mgr : MonoBehaviour
 	public void save()
 	{
 		
-		FileStream fs = new FileStream("save",
+		FileStream fs = new FileStream("Assets/save",
 			FileMode.Create,
 			FileAccess.Write);
 		BinaryWriter bw = new BinaryWriter(fs);
@@ -245,7 +245,7 @@ public class origin_mgr : MonoBehaviour
 		//配列解放
 		block = null;
 
-		FileStream fs = new FileStream("save",
+		FileStream fs = new FileStream("Assets/save",
 			FileMode.Open,
 			FileAccess.Read);
 		BinaryReader br = new BinaryReader(fs);
