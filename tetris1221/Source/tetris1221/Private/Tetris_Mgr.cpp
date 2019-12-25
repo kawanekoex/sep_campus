@@ -263,7 +263,7 @@ void ATetris_Mgr::act_interface(float DeltaTime) {
 	{
 		if (act[i] == EACT::DOWN)
 		{
-			m_block.move_time += DeltaTime * 20.0f;
+			m_block.move_time += DeltaTime * 200.0f;
 			m_block.wait_time = 1.0f;
 		}
 		else if (act[i] == EACT::LEFT)
