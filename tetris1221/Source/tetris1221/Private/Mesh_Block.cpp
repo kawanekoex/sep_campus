@@ -8,10 +8,12 @@
 #include"Engine/StaticMesh.h"
 
 AMesh_Block::AMesh_Block() {
+	//ƒƒbƒVƒ…¶¬
 	ConstructorHelpers::FObjectFinder<UStaticMesh> staticMeshAsset(TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
 	UStaticMeshComponent* mesh = GetStaticMeshComponent();
 	UStaticMesh* a = staticMeshAsset.Object;
 
+	//“®“I‰»
 	SetMobility(EComponentMobility::Type::Movable);
 	mesh->SetStaticMesh(a);
 }

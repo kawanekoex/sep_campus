@@ -29,13 +29,13 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, Category = "Tetris")
-	ATetris_Mgr* tetris_mgr;
+	ATetris_Mgr* tetris_mgr;					//マネージャー
 
 	//std::vector<EACT> act;
-	void down();
-	void right();
-	void left();
-	void right_roll();
-	void left_roll();
-	void hold();
+	void down();			//落下
+	void right();			//右
+	void left();			//左
+	void right_roll();		//右回転
+	void left_roll();		//左回転
+	void hold();			//hold
 };
