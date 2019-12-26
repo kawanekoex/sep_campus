@@ -24,28 +24,30 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	FHttpModule* Http;
+	//リクエスト
 	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
-		void MyHttpCall(int you);
+	void MyHttpCall(int you);
 	// HTTP通信を行ってレスポンスが返ってきた際のイベント処理
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
 
 	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
-		FString& Get_computer_s() {
+	FString& Get_computer_s() {
 		return computer_s;
 	}
 
 	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
-		FString& Get_mes() {
+	FString& Get_mes() {
 		return mes;
 	}
 
-	bool request_frag;
-	int32 computer;			//相手の手
+	FHttpModule* Http;									//httpクラス
+
+	bool request_frag;									//リクエスト中フラグ
+	int32 computer;										//相手の手
 
 	UPROPERTY(EditAnywhere, Category = "MyHttpActor")
-		FString computer_s;			//相手の手(string)
+	FString computer_s;									//相手の手(string)
 	UPROPERTY(EditAnywhere, Category = "MyHttpActor")
-		FString mes;			//勝敗
+	FString mes;										//勝敗
 
 };
