@@ -25,6 +25,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable, Category = "Tetris")
+	int& getscore() {
+		return score;
+	}
+
 
 	Block block_stage[STAGE_MAX_Y + BLOCK_MAX_Y][STAGE_MAX_X];
 	int32 score;
@@ -41,8 +46,11 @@ private:
 	int32 hold;
 	float game_time;
 
+
+
 	UPROPERTY(EditAnywhere, Category = "Tetris")
 	AStageMgr* stage_obj;
+
 
 	void wait_block(float DeltaTime);
 	void spawn_block();
