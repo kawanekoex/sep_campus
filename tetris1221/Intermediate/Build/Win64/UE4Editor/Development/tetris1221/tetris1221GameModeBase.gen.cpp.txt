@@ -1,0 +1,9 @@
+C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\Definitions.tetris1221.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\mirai\1130\tetris1221\Source\tetris1221/tetris1221GameModeBase.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Inc\tetris1221\tetris1221GameModeBase.generated.h

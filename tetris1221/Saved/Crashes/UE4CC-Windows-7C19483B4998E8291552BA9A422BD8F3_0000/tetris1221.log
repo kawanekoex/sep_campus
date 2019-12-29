@@ -1,0 +1,1111 @@
+﻿Log file open, 12/23/19 15:44:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: tetris1221
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165069
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1809) (), CPU: AMD Ryzen 7 2700U with Radeon Vega Mobile Gfx  , GPU: AMD Radeon(TM) RX Vega 10 Graphics
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:582][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.23-06.44.32:582][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.23-06.44.32:583][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.23-06.44.32:583][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:583][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:585][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.23-06.44.32:585][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.23-06.44.32:586][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.23-06.44.32:587][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.23-06.44.32:587][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.23-06.44.32:587][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.23-06.44.32:594][  0]LogHAL: Display: Platform has ~ 12 GB [12405260288 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.23-06.44.32:594][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.23-06.44.32:594][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.23-06.44.32:594][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Scalability.ini]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.23-06.44.32:595][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.23-06.44.32:596][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.23-06.44.32:596][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.23-06.44.32:596][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/mirai/1130/tetris1221/Saved/Config/Windows/Engine.ini]
+[2019.12.23-06.44.32:596][  0]LogInit: Computer: LAPTOP-I7T5IVA6
+[2019.12.23-06.44.32:596][  0]LogInit: User: mirai
+[2019.12.23-06.44.32:596][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.23-06.44.32:596][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.23-06.44.32:596][  0]LogMemory: Memory total: Physical=11.6GB (12GB approx)
+[2019.12.23-06.44.32:596][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.23-06.44.32:596][  0]LogMemory: Process Physical Memory: 100.31 MB used, 100.32 MB peak
+[2019.12.23-06.44.32:596][  0]LogMemory: Process Virtual Memory: 100.30 MB used, 100.30 MB peak
+[2019.12.23-06.44.32:596][  0]LogMemory: Physical Memory: 4663.68 MB used,  7166.90 MB free, 11830.58 MB total
+[2019.12.23-06.44.32:596][  0]LogMemory: Virtual Memory: 4683.01 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.12.23-06.44.32:600][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.23-06.44.32:645][  0]LogInit: Overriding language with editor language configuration option (ja).
+[2019.12.23-06.44.32:645][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.12.23-06.44.32:645][  0]LogInit: Using OS detected locale (ja-JP).
+[2019.12.23-06.44.32:759][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.23-06.44.32:832][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.23-06.44.32:832][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.23-06.44.33:102][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.23-06.44.33:102][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.23-06.44.33:134][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) RX Vega 10 Graphics' (Feature Level 11_0)
+[2019.12.23-06.44.33:134][  0]LogD3D11RHI:       240/0/5915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.12.23-06.44.33:138][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.23-06.44.33:138][  0]LogD3D11RHI:       0/0/5915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.23-06.44.33:138][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.23-06.44.33:155][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.23-06.44.33:155][  0]LogD3D11RHI:     GPU DeviceId: 0x15dd (for the marketing name, search the web for "GPU Device Id")
+[2019.12.23-06.44.33:155][  0]LogWindows: EnumDisplayDevices:
+[2019.12.23-06.44.33:155][  0]LogWindows:    0. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:1 D:1)
+[2019.12.23-06.44.33:155][  0]LogWindows:    1. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:0 D:0)
+[2019.12.23-06.44.33:156][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2019.12.23-06.44.33:156][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) RX Vega 10 Graphics
+[2019.12.23-06.44.33:156][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.40.12.01 (internal:25.20.14012.1003, unified:25.20.14012.1003)
+[2019.12.23-06.44.33:156][  0]LogD3D11RHI:      Driver Date: 11-20-2018
+[2019.12.23-06.44.33:156][  0]LogRHI: Texture pool is 168 MB (70% of 240 MB)
+[2019.12.23-06.44.33:189][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.23-06.44.33:204][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.12.23-06.44.33:692][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.23-06.44.33:717][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.23-06.44.33:739][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.23-06.44.33:757][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.23-06.44.33:776][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.23-06.44.33:791][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.23-06.44.33:811][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.23-06.44.33:826][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.23-06.44.33:834][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.23-06.44.33:916][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.23-06.44.33:917][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.23-06.44.33:917][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.23-06.44.33:917][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.23-06.44.33:917][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.23-06.44.33:917][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.23-06.44.33:917][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.23-06.44.33:921][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.23-06.44.33:958][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.23-06.44.33:958][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.23-06.44.34:000][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.23-06.44.34:000][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.23-06.44.34:018][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.23-06.44.34:037][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.23-06.44.34:053][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.23-06.44.34:072][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.23-06.44.34:129][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.23-06.44.34:129][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.23-06.44.34:130][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.23-06.44.34:151][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.23-06.44.34:289][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/mirai/1130/tetris1221/Intermediate/Shaders/WorkingDirectory/8944/).
+[2019.12.23-06.44.34:290][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mirai/AppData/Local/Temp/UnrealShaderWorkingDir/8D2BC93A454D280FB29054817758CD1F/'.
+[2019.12.23-06.44.34:295][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.23-06.44.34:295][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.23-06.44.34:295][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.23-06.44.35:158][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.23-06.44.35:241][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/mirai/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.23-06.44.35:241][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mirai/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.23-06.44.35:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mirai/1130/tetris1221/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.23-06.44.35:241][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.23-06.44.35:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mirai/1130/tetris1221/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.23-06.44.35:241][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.23-06.44.35:255][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.23-06.44.35:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.23-06.44.35:256][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.23-06.44.35:259][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mirai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.23-06.44.35:260][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.23-06.44.35:260][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.23-06.44.35:309][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.23-06.44.35:312][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.23-06.44.35:313][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.23-06.44.35:389][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
+[2019.12.23-06.44.35:856][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.23-06.44.36:067][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.23-06.44.36:067][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.23-06.44.36:067][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.23-06.44.36:067][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.23-06.44.36:067][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.23-06.44.36:089][  0]LogNetVersion: tetris1221 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1738125009)
+[2019.12.23-06.44.36:882][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.103299 seconds
+[2019.12.23-06.44.36:904][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.23-06.44.36:904][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.23-06.44.36:904][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.23-06.44.38:490][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.23-06.44.38:499][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.23-06.44.38:747][  0]SourceControl: ソースコントロールは無効です
+[2019.12.23-06.44.38:747][  0]SourceControl: ソースコントロールは無効です
+[2019.12.23-06.44.38:751][  0]SourceControl: ソースコントロールは無効です
+[2019.12.23-06.44.38:754][  0]SourceControl: ソースコントロールは無効です
+[2019.12.23-06.44.38:990][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.23-06.44.39:216][  0]LogOcInput: OculusInput pre-init called
+[2019.12.23-06.44.39:231][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.23-06.44.39:231][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.23-06.44.39:382][  0]LogEngine: Initializing Engine...
+[2019.12.23-06.44.39:384][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.23-06.44.39:385][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.23-06.44.39:794][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.23-06.44.39:845][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.23-06.44.39:865][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-06.44.40:850][  0]LogInit: FAudioDevice initialized.
+[2019.12.23-06.44.40:850][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.23-06.44.40:984][  0]LogDerivedDataCache: Saved boot cache 0.13s 73MB C:/Users/mirai/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.23-06.44.40:992][  0]LogInit: Texture streaming: Enabled
+[2019.12.23-06.44.41:039][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.23-06.44.41:039][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.23-06.44.41:040][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.23-06.44.41:146][  0]LogInit: Transaction tracking system initialized
+[2019.12.23-06.44.41:211][  0]BlueprintLog: New page: エディタの読み込み
+[2019.12.23-06.44.41:383][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2019.12.23-06.44.41:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/tetris1221/Content/' took 0.01s
+[2019.12.23-06.44.41:895][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.23-06.44.41:895][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.23-06.44.42:228][  0]SourceControl: ソースコントロールは無効です
+[2019.12.23-06.44.42:228][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mirai/1130/tetris1221/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.23-06.44.42:229][  0]LightingResults: New page: ライティングのビルド
+[2019.12.23-06.44.42:235][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-06.44.42:236][  0]MapCheck: New page: マップをチェック
+[2019.12.23-06.44.42:236][  0]LightingResults: New page: <何も選択されていません>
+[2019.12.23-06.44.42:280][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.12.23-06.44.42:452][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-06.44.42:467][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.23-06.44.42:517][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.12.23-06.44.42:517][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.23-06.44.42:518][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.346ミリ秒かかりました。
+[2019.12.23-06.44.42:518][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.289
+[2019.12.23-06.44.42:727][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-06.44.42:746][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-06.44.42:760][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-06.44.42:772][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-06.44.42:793][  0]LogCollectionManager: Loaded 0 collections in 0.003329 seconds
+[2019.12.23-06.44.42:847][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/tetris1221/Saved/Collections/' took 0.00s
+[2019.12.23-06.44.42:847][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/tetris1221/Content/Developers/mirai/Collections/' took 0.00s
+[2019.12.23-06.44.42:847][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/tetris1221/Content/Collections/' took 0.00s
+[2019.12.23-06.44.42:847][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2019.12.23-06.44.42:867][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2869 classes and 685 folders.
+[2019.12.23-06.44.42:889][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.12.23-06.44.43:199][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.12.23-06.44.43:450][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.23-06.44.43:454][  0]LogSlate: Took 0.000809 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2019.12.23-06.44.43:460][  0]LogSlate: Took 0.000764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2019.12.23-06.44.43:460][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.23-06.44.43:467][  0]LogSlate: Took 0.002755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.23-06.44.43:563][  0]LogRenderer: Reallocating scene render targets to support 840x472 Format 10 NumSamples 1 (Frame:1).
+[2019.12.23-06.44.43:705][  0]LogSlate: Took 0.002370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.23-06.44.44:007][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.12.23-06.44.44:007][  0]LogLoad: (Engine Initialization) Total time: 13.80 seconds
+[2019.12.23-06.44.44:007][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.23-06.44.44:128][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.23-06.44.44:259][  2]LogAssetRegistry: Asset discovery search completed in 8.8707 seconds
+[2019.12.23-06.44.44:264][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2019.12.23-06.44.44:264][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000146 seconds (updated 0 objects)
+[2019.12.23-06.44.45:058][ 39]LogSlate: Took 0.005056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2019.12.23-06.44.45:058][ 39]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.23-06.44.50:203][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-06.44.50:441][340]LogAssetEditorManager: Opening Asset editor for Class /Script/tetris1221.Tetris_Mgr
+[2019.12.23-06.51.45:733][559]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={A20D814D-4BC9-7743-3031-3390AB3779F9}
+[2019.12.23-06.54.46:488][ 99]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={E2AC3EEE-48E5-C615-6949-4986B056F041}
+[2019.12.23-07.08.25:873][682]LogLinker: Warning:  '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' のロードに失敗しました: アセット名を解決できません
+[2019.12.23-07.15.23:691][ 44]Candidate modules for hot reload:
+[2019.12.23-07.15.23:691][ 44]  tetris1221
+[2019.12.23-07.15.23:692][ 44]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=tetris1221,7995 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/tetris1221/tetris1221.uproject" "C:/Users/mirai/1130/tetris1221/tetris1221.uproject"  -IgnoreJunk]
+[2019.12.23-07.15.23:695][ 44]Warning: Starting HotReload took  0.1s.
+[2019.12.23-07.15.55:642][608]CompilerResultsLog: New page: コンパイル - 2019/12/24 1:15:55
+[2019.12.23-07.15.55:643][608]CompilerResultsLog: Parsing headers for tetris1221Editor
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\tetris1221\tetris1221.uproject" "C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\tetris1221Editor\Development\tetris1221Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.23-07.15.55:643][608]CompilerResultsLog: Reflection code generated for tetris1221Editor in 13.5428616 seconds
+[2019.12.23-07.15.55:643][608]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.23-07.15.55:643][608]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [1/9] tetris1221.init.gen.cpp
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [2/9] StageMgr.cpp
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [3/9] Tetris_Mgr.gen.cpp
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [4/9] StageMgr.gen.cpp
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [5/9] Input.cpp
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [6/9] Tetris_Mgr.cpp
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [7/9] UE4Editor-tetris1221-7995.lib
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-7995.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-7995.exp ???쐬??
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [8/9] UE4Editor-tetris1221-7995.dll
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-7995.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-7995.suppressed.exp ???쐬??
+[2019.12.23-07.15.55:643][608]CompilerResultsLog:   [9/9] tetris1221Editor.target
+[2019.12.23-07.15.55:643][608]CompilerResultsLog: Total time in Parallel executor: 15.81 seconds
+[2019.12.23-07.15.55:643][608]CompilerResultsLog: Total execution time: 31.71 seconds
+[2019.12.23-07.15.55:644][608]LogMainFrame: MainFrame: Module compiling took 31.971 seconds
+[2019.12.23-07.15.55:706][608]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2019.12.23-07.15.55:724][608]LogClass: Could not find existing class Tetris_Mgr in package /Script/tetris1221 for HotReload, assuming new class
+[2019.12.23-07.15.55:732][608]LogHotReload: Re-instancing Tetris_Mgr after hot-reload.
+[2019.12.23-07.15.55:923][608]LogContentBrowser: Native class hierarchy updated for 'tetris1221' in 0.0018 seconds. Added 5 classes and 3 folders.
+[2019.12.23-07.15.55:928][608]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.23-07.15.56:022][608]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.12.23-07.15.56:051][608]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2869 classes and 685 folders.
+[2019.12.23-07.15.56:056][608]Display: HotReload took 32.5s.
+[2019.12.23-07.16.21:751][779]LogSlate: Window 'エディタの環境設定' being destroyed
+[2019.12.23-07.16.21:756][779]LogSlate: Window 'エディタの環境設定' being destroyed
+[2019.12.23-07.16.26:657][ 20]LogEditor: Attempting to add actor of class 'Tetris_Mgr' to level at -310.00,320.00,-240.00
+[2019.12.23-07.16.27:046][ 42]LogEditor: Attempting to add actor of class 'Tetris_Mgr' to level at -290.00,140.00,-190.00
+[2019.12.23-07.16.28:478][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.16.41:303][881]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.16.41:323][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.16.41:326][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.16.41:327][881]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:16:41)
+[2019.12.23-07.16.41:335][881]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.23-07.16.41:339][881]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.16.41:346][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007039s)
+[2019.12.23-07.16.41:349][881]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.16.41:350][881]LogPlayLevel: PIE: World Init took: (0.003175s)
+[2019.12.23-07.16.41:350][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010900s)
+[2019.12.23-07.16.41:380][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.12.23-07.16.41:391][881]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.16.41:418][881]LogInit: FAudioDevice initialized.
+[2019.12.23-07.16.41:444][881]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.16.41:455][881]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.16.41
+[2019.12.23-07.16.41:457][881]LogWorld: Bringing up level for play took: 0.002523
+[2019.12.23-07.16.41:458][881]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.12.23-07.16.41:532][881]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.12.23-07.16.41:535][881]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.16.41:536][881]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.16.41:540][881]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.326のプレイ イン エディタの開始時間
+[2019.12.23-07.16.41:541][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.17.06:201][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.17.06:202][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.17.06:202][291]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.17.06:203][291]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.17.06:238][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.17.06:238][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.17.06:283][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.17.06:295][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.12.23-07.17.06:320][292]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.23-07.17.13:482][695]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.17.14:200][732]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.23-07.17.16:980][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.17.31:323][728]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.17.33:010][825]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.23-07.17.37:235][ 64]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.17.39:488][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.18.07:620][673]LogSlate: Took 0.003948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.23-07.18.11:969][927]Cmd: SELECT NONE
+[2019.12.23-07.18.37:592][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.12.23-07.18.37:795][ 60]LogSavePackage: Moving '../../../../../../Users/mirai/1130/tetris1221/Saved/Minimal_Default_Auto1103178F3405074818964089C80262D6B.tmp' to '../../../../../../Users/mirai/1130/tetris1221/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.12.23-07.18.37:803][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.241
+[2019.12.23-07.18.37:804][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.241
+[2019.12.23-07.20.05:575][323]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.23-07.20.07:334][413]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.20.09:244][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.20.13:150][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.20.16:405][870]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.12.23-07.20.26:533][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.20.44:102][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.20.45:667][532]Candidate modules for hot reload:
+[2019.12.23-07.20.45:667][532]  tetris1221
+[2019.12.23-07.20.45:667][532]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=tetris1221,6515 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/tetris1221/tetris1221.uproject" "C:/Users/mirai/1130/tetris1221/tetris1221.uproject"  -IgnoreJunk]
+[2019.12.23-07.20.45:669][532]Warning: Starting HotReload took  0.0s.
+[2019.12.23-07.21.05:369][458]CompilerResultsLog: New page: コンパイル - 2019/12/24 1:21:05
+[2019.12.23-07.21.05:369][458]CompilerResultsLog: Parsing headers for tetris1221Editor
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\tetris1221\tetris1221.uproject" "C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\tetris1221Editor\Development\tetris1221Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.23-07.21.05:369][458]CompilerResultsLog: Reflection code generated for tetris1221Editor in 11.0428513 seconds
+[2019.12.23-07.21.05:369][458]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.23-07.21.05:369][458]CompilerResultsLog: Building 13 actions with 8 processes...
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [1/13] StageMgr.cpp
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [2/13] tetris1221GameModeBase.cpp
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [3/13] StageMgr.gen.cpp
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [4/13] Mesh_Block.cpp
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [5/13] Input.gen.cpp
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [6/13] Mesh_Block.gen.cpp
+[2019.12.23-07.21.05:369][458]CompilerResultsLog:   [7/13] Tetris_Mgr.gen.cpp
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:   [8/13] Tetris_Mgr.cpp
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:   [9/13] Def.cpp
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:   [10/13] Input.cpp
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:   [11/13] UE4Editor-tetris1221-6515.lib
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6515.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6515.exp ???쐬??
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:   [12/13] UE4Editor-tetris1221-6515.dll
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6515.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6515.suppressed.exp ???쐬??
+[2019.12.23-07.21.05:370][458]CompilerResultsLog:   [13/13] tetris1221Editor.target
+[2019.12.23-07.21.05:370][458]CompilerResultsLog: Total time in Parallel executor: 6.45 seconds
+[2019.12.23-07.21.05:370][458]CompilerResultsLog: Total execution time: 19.54 seconds
+[2019.12.23-07.21.05:370][458]LogMainFrame: MainFrame: Module compiling took 19.709 seconds
+[2019.12.23-07.21.05:409][458]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2019.12.23-07.21.05:437][458]LogContentBrowser: Native class hierarchy updated for 'tetris1221' in 0.0006 seconds. Added 5 classes and 3 folders.
+[2019.12.23-07.21.05:443][458]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.23-07.21.05:522][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.12.23-07.21.05:540][458]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2869 classes and 685 folders.
+[2019.12.23-07.21.05:540][458]Display: HotReload took 19.9s.
+[2019.12.23-07.21.12:251][776]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.23-07.21.13:519][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.21.22:126][345]Cmd: DELETE
+[2019.12.23-07.21.22:126][345]Cmd: ACTOR DELETE
+[2019.12.23-07.21.22:157][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.12.23-07.21.22:159][345]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2019.12.23-07.21.24:160][464]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.23-07.21.25:615][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.21.32:492][905]Cmd: DELETE
+[2019.12.23-07.21.32:493][905]Cmd: ACTOR DELETE
+[2019.12.23-07.21.32:502][905]LogEditorActor: Deleted Actor: PlayerStart
+[2019.12.23-07.21.32:534][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.12.23-07.21.32:534][905]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.12.23-07.21.34:151][985]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.12.23-07.21.45:386][536]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.21.55:924][106]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.22.45:340][340]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.23-07.22.53:517][795]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.23.00:820][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.23.14:891][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.23.16:137][968]LogSlate: Took 0.005404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2019.12.23-07.23.16:143][968]LogSlate: Took 0.005562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Heavy.otf' (704K)
+[2019.12.23-07.23.16:159][968]LogSlate: Took 0.014646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.12.23-07.23.35:670][688]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.23.38:020][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.23.58:818][624]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.24.02:737][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.24.03:492][875]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.12.23-07.24.08:824][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.24.28:590][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.24.58:026][522]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.24.59:206][592]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.24.59:222][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.24.59:223][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.24.59:223][592]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:24:59)
+[2019.12.23-07.24.59:223][592]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.24.59:228][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005347s)
+[2019.12.23-07.24.59:229][592]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.24.59:230][592]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2019.12.23-07.24.59:230][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006925s)
+[2019.12.23-07.24.59:263][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.12.23-07.24.59:274][592]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.24.59:300][592]LogInit: FAudioDevice initialized.
+[2019.12.23-07.24.59:300][592]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.24.59:309][592]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.24.59:310][592]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.24.59
+[2019.12.23-07.24.59:311][592]LogWorld: Bringing up level for play took: 0.000806
+[2019.12.23-07.24.59:311][592]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.12.23-07.24.59:314][592]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.24.59:314][592]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.24.59:314][592]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.553のプレイ イン エディタの開始時間
+[2019.12.23-07.24.59:314][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.05:257][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.05:257][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.25.05:257][927]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.25.05:258][927]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.25.05:301][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.25.05:302][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.05:346][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.25.05:350][927]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.12.23-07.25.05:382][928]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.12.23-07.25.10:806][232]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.25.13:241][340]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.25.17:167][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.25.17:904][573]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.12.23-07.25.25:623][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.25.27:455][902]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.25.27:472][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.27:472][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.25.27:472][902]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:25:27)
+[2019.12.23-07.25.27:472][902]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.25.27:478][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006236s)
+[2019.12.23-07.25.27:480][902]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.25.27:481][902]LogPlayLevel: PIE: World Init took: (0.002287s)
+[2019.12.23-07.25.27:481][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008892s)
+[2019.12.23-07.25.27:515][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.12.23-07.25.27:524][902]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.25.27:547][902]LogInit: FAudioDevice initialized.
+[2019.12.23-07.25.27:555][902]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.25.27:556][902]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.25.27
+[2019.12.23-07.25.27:557][902]LogWorld: Bringing up level for play took: 0.000919
+[2019.12.23-07.25.27:557][902]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2019.12.23-07.25.27:559][902]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.25.27:560][902]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.25.27:560][902]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.307のプレイ イン エディタの開始時間
+[2019.12.23-07.25.27:560][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.43:490][836]Set new viewmode: Wireframe
+[2019.12.23-07.25.44:553][900]Set new viewmode: Wireframe
+[2019.12.23-07.25.45:173][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.45:173][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.25.45:173][937]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.25.45:174][937]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.25.45:184][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.25.45:184][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.25.45:220][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.25.45:223][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.12.23-07.25.45:326][939]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.12.23-07.25.52:788][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.26.03:708][867]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.23-07.26.46:702][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.26.47:952][521]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.26.48:765][560]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.26.48:781][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.26.48:782][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.26.48:782][560]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:26:48)
+[2019.12.23-07.26.48:782][560]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.26.48:786][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004007s)
+[2019.12.23-07.26.48:787][560]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.26.48:788][560]LogPlayLevel: PIE: World Init took: (0.001550s)
+[2019.12.23-07.26.48:788][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005795s)
+[2019.12.23-07.26.48:819][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.12.23-07.26.48:827][560]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.26.48:854][560]LogInit: FAudioDevice initialized.
+[2019.12.23-07.26.48:854][560]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.26.48:868][560]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.26.48:869][560]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.26.48
+[2019.12.23-07.26.48:870][560]LogWorld: Bringing up level for play took: 0.000976
+[2019.12.23-07.26.48:870][560]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.12.23-07.26.48:872][560]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.26.48:873][560]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.26.48:873][560]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.006のプレイ イン エディタの開始時間
+[2019.12.23-07.26.48:873][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.26.52:812][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.26.52:813][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.26.52:813][792]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.26.52:813][792]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.26.52:830][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.26.52:830][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.26.52:869][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.26.52:871][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.12.23-07.26.52:989][794]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.12.23-07.28.31:398][618]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2019.12.23-07.28.31:913][618]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 121 classes and 0 folders.
+[2019.12.23-07.28.33:156][618]LogSlate: Took 0.004001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.23-07.30.44:542][816]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.12.23-07.30.44:820][816]LogSavePackage: Moving '../../../../../../Users/mirai/1130/tetris1221/Saved/Minimal_Default_Auto22521A97C4EA65D13B4CA819E41CFB442.tmp' to '../../../../../../Users/mirai/1130/tetris1221/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.12.23-07.30.44:824][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.337
+[2019.12.23-07.30.44:824][816]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.337
+[2019.12.23-07.33.03:993][349]BlueprintLog: New page: Minimal_Default をコンパイル
+[2019.12.23-07.33.04:273][349]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2019.12.23-07.33.10:507][617]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.33.10:519][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.10:519][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.33.10:519][617]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:33:10)
+[2019.12.23-07.33.10:519][617]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.33.10:523][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003858s)
+[2019.12.23-07.33.10:525][617]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.33.10:525][617]LogPlayLevel: PIE: World Init took: (0.001605s)
+[2019.12.23-07.33.10:525][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005666s)
+[2019.12.23-07.33.10:566][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.12.23-07.33.10:573][617]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.33.10:598][617]LogInit: FAudioDevice initialized.
+[2019.12.23-07.33.10:610][617]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.33.10:611][617]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.33.10
+[2019.12.23-07.33.10:611][617]LogWorld: Bringing up level for play took: 0.001029
+[2019.12.23-07.33.10:612][617]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.12.23-07.33.10:614][617]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.33.10:614][617]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.33.10:615][617]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.748のプレイ イン エディタの開始時間
+[2019.12.23-07.33.10:615][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.15:985][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.15:986][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.33.15:986][933]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.33.15:986][933]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.33.16:004][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.33.16:004][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.16:052][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.33.16:058][933]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2019.12.23-07.33.16:097][934]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.12.23-07.33.20:784][204]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.12.23-07.33.28:701][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.33.31:159][655]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.23-07.33.40:053][967]BlueprintLog: New page: Minimal_Default をコンパイル
+[2019.12.23-07.33.40:340][967]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.12.23-07.33.43:486][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.33.44:167][102]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.33.44:184][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.44:184][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.33.44:184][102]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:33:44)
+[2019.12.23-07.33.44:185][102]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.33.44:191][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006152s)
+[2019.12.23-07.33.44:192][102]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.33.44:193][102]LogPlayLevel: PIE: World Init took: (0.001587s)
+[2019.12.23-07.33.44:193][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008012s)
+[2019.12.23-07.33.44:237][102]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.12.23-07.33.44:245][102]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.33.44:267][102]LogInit: FAudioDevice initialized.
+[2019.12.23-07.33.44:267][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.33.44:279][102]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.33.44:280][102]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.33.44
+[2019.12.23-07.33.44:280][102]LogWorld: Bringing up level for play took: 0.000919
+[2019.12.23-07.33.44:280][102]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.12.23-07.33.44:283][102]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.33.44:283][102]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.33.44:284][102]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.418のプレイ イン エディタの開始時間
+[2019.12.23-07.33.44:284][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.46:650][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.46:651][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.33.46:651][238]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.33.46:651][238]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.33.46:671][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.33.46:672][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.46:726][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.33.46:732][238]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2019.12.23-07.33.46:759][239]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.12.23-07.33.49:517][395]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.33.49:530][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.33.49:531][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.33.49:531][395]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:33:49)
+[2019.12.23-07.33.49:531][395]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.33.49:536][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004685s)
+[2019.12.23-07.33.49:537][395]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.33.49:537][395]LogPlayLevel: PIE: World Init took: (0.001457s)
+[2019.12.23-07.33.49:537][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006373s)
+[2019.12.23-07.33.49:576][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.12.23-07.33.49:583][395]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.33.49:605][395]LogInit: FAudioDevice initialized.
+[2019.12.23-07.33.49:619][395]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.33.49:620][395]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.33.49
+[2019.12.23-07.33.49:621][395]LogWorld: Bringing up level for play took: 0.000837
+[2019.12.23-07.33.49:621][395]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.12.23-07.33.49:623][395]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.33.49:623][395]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.33.49:624][395]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.243のプレイ イン エディタの開始時間
+[2019.12.23-07.33.49:624][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.34.26:132][414]Cmd: SELECT NONE
+[2019.12.23-07.34.29:797][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.34.29:797][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.34.29:797][628]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.34.29:798][628]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.34.29:845][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.34.29:845][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.34.29:904][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.34.29:909][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.12.23-07.34.29:943][629]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.12.23-07.35.54:095][995]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.36.01:147][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.36.09:353][734]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.36.26:156][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.36.31:367][175]Cmd: TRANSACTION UNDO
+[2019.12.23-07.36.31:367][175]LogEditorTransaction: Undo アクタ を移動
+[2019.12.23-07.36.32:467][229]LogEditorViewport: Clicking on Actor (LMB): Mesh_Block (Mesh_Block1)
+[2019.12.23-07.36.38:962][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.36.42:744][695]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.37.24:870][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.37.25:027][362]Candidate modules for hot reload:
+[2019.12.23-07.37.25:027][362]  tetris1221
+[2019.12.23-07.37.25:027][362]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=tetris1221,1977 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/tetris1221/tetris1221.uproject" "C:/Users/mirai/1130/tetris1221/tetris1221.uproject"  -IgnoreJunk]
+[2019.12.23-07.37.25:030][362]Warning: Starting HotReload took  0.0s.
+[2019.12.23-07.37.39:093][484]CompilerResultsLog: New page: コンパイル - 2019/12/24 1:37:39
+[2019.12.23-07.37.39:093][484]CompilerResultsLog: Parsing headers for tetris1221Editor
+[2019.12.23-07.37.39:093][484]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\tetris1221\tetris1221.uproject" "C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\tetris1221Editor\Development\tetris1221Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.23-07.37.39:093][484]CompilerResultsLog: Reflection code generated for tetris1221Editor in 9.2147523 seconds
+[2019.12.23-07.37.39:093][484]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.23-07.37.39:094][484]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.23-07.37.39:094][484]CompilerResultsLog:   [1/4] StageMgr.cpp
+[2019.12.23-07.37.39:094][484]CompilerResultsLog:   [2/4] UE4Editor-tetris1221-1977.lib
+[2019.12.23-07.37.39:094][484]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-1977.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-1977.exp ???쐬??
+[2019.12.23-07.37.39:094][484]CompilerResultsLog:   [3/4] UE4Editor-tetris1221-1977.dll
+[2019.12.23-07.37.39:094][484]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-1977.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-1977.suppressed.exp ???쐬??
+[2019.12.23-07.37.39:094][484]CompilerResultsLog:   [4/4] tetris1221Editor.target
+[2019.12.23-07.37.39:094][484]CompilerResultsLog: Total time in Parallel executor: 2.35 seconds
+[2019.12.23-07.37.39:094][484]CompilerResultsLog: Total execution time: 13.63 seconds
+[2019.12.23-07.37.39:094][484]LogMainFrame: MainFrame: Module compiling took 14.079 seconds
+[2019.12.23-07.37.39:134][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.12.23-07.37.39:159][484]LogContentBrowser: Native class hierarchy updated for 'tetris1221' in 0.0007 seconds. Added 5 classes and 3 folders.
+[2019.12.23-07.37.39:165][484]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.23-07.37.39:283][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.12.23-07.37.39:309][484]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2869 classes and 685 folders.
+[2019.12.23-07.37.39:309][484]Display: HotReload took 14.3s.
+[2019.12.23-07.37.52:626][641]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.37.52:649][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.37.52:649][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.37.52:650][641]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:37:52)
+[2019.12.23-07.37.52:650][641]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.37.52:656][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006268s)
+[2019.12.23-07.37.52:658][641]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.37.52:658][641]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2019.12.23-07.37.52:658][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008256s)
+[2019.12.23-07.37.52:761][641]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2019.12.23-07.37.52:772][641]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.37.52:802][641]LogInit: FAudioDevice initialized.
+[2019.12.23-07.37.52:816][641]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.37.52:818][641]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.37.52
+[2019.12.23-07.37.52:819][641]LogWorld: Bringing up level for play took: 0.001810
+[2019.12.23-07.37.52:819][641]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.12.23-07.37.52:822][641]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.37.52:822][641]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.37.52:823][641]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.957のプレイ イン エディタの開始時間
+[2019.12.23-07.37.52:823][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.38.12:122][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.38.12:123][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.38.12:123][777]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.38.12:123][777]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.38.12:140][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.38.12:140][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.38.12:189][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.38.12:206][777]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2019.12.23-07.38.12:230][778]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.12.23-07.38.19:532][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.38.38:869][219]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2019.12.23-07.38.40:820][300]LogSlate: Window 'レベル' being destroyed
+[2019.12.23-07.38.40:847][300]LogSlate: Window 'レベル' being destroyed
+[2019.12.23-07.38.41:389][330]LogSlate: Window 'シーケンサー' being destroyed
+[2019.12.23-07.38.41:414][330]LogSlate: Window 'シーケンサー' being destroyed
+[2019.12.23-07.38.48:148][646]LogSlate: Window 'コンテンツブラウザ' being destroyed
+[2019.12.23-07.38.48:167][646]LogSlate: Window 'コンテンツブラウザ' being destroyed
+[2019.12.23-07.38.56:283][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.38.56:294][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.38.56:304][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.38.56:313][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.39.02:279][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.39.03:514][291]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.39.03:529][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.39.03:529][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.39.03:529][291]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:39:03)
+[2019.12.23-07.39.03:529][291]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.39.03:539][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009114s)
+[2019.12.23-07.39.03:540][291]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.39.03:540][291]LogPlayLevel: PIE: World Init took: (0.001593s)
+[2019.12.23-07.39.03:540][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011065s)
+[2019.12.23-07.39.03:638][291]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.12.23-07.39.03:646][291]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.39.03:670][291]LogInit: FAudioDevice initialized.
+[2019.12.23-07.39.03:670][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.39.03:691][291]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.39.03:693][291]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.39.03
+[2019.12.23-07.39.03:693][291]LogWorld: Bringing up level for play took: 0.001712
+[2019.12.23-07.39.03:694][291]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2019.12.23-07.39.03:696][291]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.39.03:696][291]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.39.03:697][291]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.17のプレイ イン エディタの開始時間
+[2019.12.23-07.39.03:697][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.39.05:678][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.39.09:153][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.39.20:503][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.39.26:335][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.39.35:261][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.39.39:819][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.39.39:820][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.39.39:820][838]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.39.39:820][838]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.23-07.39.39:854][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.23-07.39.39:855][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.39.39:912][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.23-07.39.39:919][838]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2019.12.23-07.39.39:953][839]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.12.23-07.39.44:837][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.39.46:381][ 31]LogEditor: Attempting to add actor of class 'Input' to level at 440.00,-760.00,-560.00
+[2019.12.23-07.39.46:945][ 49]LogEditor: Attempting to add actor of class 'Input' to level at 290.00,-660.00,-610.00
+[2019.12.23-07.42.19:944][819]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.23-07.42.21:403][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.23-07.42.21:547][869]Candidate modules for hot reload:
+[2019.12.23-07.42.21:547][869]  tetris1221
+[2019.12.23-07.42.21:547][869]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=tetris1221,6848 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/tetris1221/tetris1221.uproject" "C:/Users/mirai/1130/tetris1221/tetris1221.uproject"  -IgnoreJunk]
+[2019.12.23-07.42.21:550][869]Warning: Starting HotReload took  0.0s.
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: New page: コンパイル - 2019/12/24 1:42:38
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: Parsing headers for tetris1221Editor
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\tetris1221\tetris1221.uproject" "C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\tetris1221Editor\Development\tetris1221Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: Reflection code generated for tetris1221Editor in 10.6064262 seconds
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [1/7] tetris1221.init.gen.cpp
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [2/7] Input.cpp
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [3/7] tetris1221GameModeBase.cpp
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [4/7] Input.gen.cpp
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [5/7] UE4Editor-tetris1221-6848.lib
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6848.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6848.exp ???쐬??
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [6/7] UE4Editor-tetris1221-6848.dll
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6848.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-6848.suppressed.exp ???쐬??
+[2019.12.23-07.42.38:631][129]CompilerResultsLog:   [7/7] tetris1221Editor.target
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: Total time in Parallel executor: 3.84 seconds
+[2019.12.23-07.42.38:631][129]CompilerResultsLog: Total execution time: 16.56 seconds
+[2019.12.23-07.42.38:631][129]LogMainFrame: MainFrame: Module compiling took 17.094 seconds
+[2019.12.23-07.42.38:675][129]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.12.23-07.42.38:681][129]LogClass: Could not find existing class Input in package /Script/tetris1221 for HotReload, assuming new class
+[2019.12.23-07.42.38:705][129]LogHotReload: Re-instancing Input after hot-reload.
+[2019.12.23-07.42.38:992][129]LogContentBrowser: Native class hierarchy updated for 'tetris1221' in 0.0007 seconds. Added 5 classes and 3 folders.
+[2019.12.23-07.42.38:999][129]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.23-07.42.39:125][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.12.23-07.42.39:152][129]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2871 classes and 688 folders.
+[2019.12.23-07.42.39:153][129]Display: HotReload took 17.6s.
+[2019.12.23-07.42.49:102][158]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.12.23-07.42.49:426][158]LogSavePackage: Moving '../../../../../../Users/mirai/1130/tetris1221/Saved/Minimal_Default_Auto3B418B9BB47E1E2598D317A8833E3DF82.tmp' to '../../../../../../Users/mirai/1130/tetris1221/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2019.12.23-07.42.49:431][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.435
+[2019.12.23-07.42.49:432][158]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.435
+[2019.12.23-07.46.18:571][867]Candidate modules for hot reload:
+[2019.12.23-07.46.18:571][867]  tetris1221
+[2019.12.23-07.46.18:571][867]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=tetris1221,4076 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/tetris1221/tetris1221.uproject" "C:/Users/mirai/1130/tetris1221/tetris1221.uproject"  -IgnoreJunk]
+[2019.12.23-07.46.18:573][867]Warning: Starting HotReload took  0.0s.
+[2019.12.23-07.46.33:988][  6]CompilerResultsLog: New page: コンパイル - 2019/12/24 1:46:33
+[2019.12.23-07.46.33:988][  6]CompilerResultsLog: Parsing headers for tetris1221Editor
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\tetris1221\tetris1221.uproject" "C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\tetris1221Editor\Development\tetris1221Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog: Reflection code generated for tetris1221Editor in 8.9100327 seconds
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [1/8] tetris1221GameModeBase.cpp
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [2/8] Tetris_Mgr.gen.cpp
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [3/8] Input.gen.cpp
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [4/8] Input.cpp
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [5/8] Tetris_Mgr.cpp
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [6/8] UE4Editor-tetris1221-4076.lib
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-4076.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-4076.exp ???쐬??
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [7/8] UE4Editor-tetris1221-4076.dll
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-4076.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-4076.suppressed.exp ???쐬??
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog:   [8/8] tetris1221Editor.target
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog: Total time in Parallel executor: 4.09 seconds
+[2019.12.23-07.46.33:989][  6]CompilerResultsLog: Total execution time: 14.92 seconds
+[2019.12.23-07.46.33:989][  6]LogMainFrame: MainFrame: Module compiling took 15.428 seconds
+[2019.12.23-07.46.34:060][  6]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2019.12.23-07.46.34:083][  6]LogClass: Could not find existing class Tetris_Mgr in package /Script/tetris1221 for HotReload, assuming new class
+[2019.12.23-07.46.34:096][  6]LogHotReload: Re-instancing Tetris_Mgr after hot-reload.
+[2019.12.23-07.46.34:385][  6]LogContentBrowser: Native class hierarchy updated for 'tetris1221' in 0.0007 seconds. Added 5 classes and 3 folders.
+[2019.12.23-07.46.34:392][  6]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.23-07.46.34:527][  6]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.12.23-07.46.34:554][  6]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2871 classes and 688 folders.
+[2019.12.23-07.46.34:554][  6]Display: HotReload took 16.0s.
+[2019.12.23-07.47.06:925][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.23-07.47.07:940][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.47.08:825][144]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.23-07.47.08:843][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.23-07.47.08:843][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.23-07.47.08:844][144]PIE: New page: PIEセッション: Minimal_Default (2019/12/24 1:47:08)
+[2019.12.23-07.47.08:844][144]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.23-07.47.08:849][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004866s)
+[2019.12.23-07.47.08:851][144]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.23-07.47.08:852][144]LogPlayLevel: PIE: World Init took: (0.002244s)
+[2019.12.23-07.47.08:852][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008220s)
+[2019.12.23-07.47.08:953][144]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.12.23-07.47.08:963][144]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.23-07.47.08:991][144]LogInit: FAudioDevice initialized.
+[2019.12.23-07.47.08:992][144]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.23-07.47.09:006][144]LogLoad: Game class is 'tetris1221GameModeBase'
+[2019.12.23-07.47.09:008][144]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.23-16.47.09
+[2019.12.23-07.47.09:009][144]LogWorld: Bringing up level for play took: 0.001201
+[2019.12.23-07.47.09:009][144]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2019.12.23-07.47.09:013][144]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.47.09:013][144]LogTemp: Warning: 23222222222222222222222222222222
+[2019.12.23-07.47.09:014][144]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.147のプレイ イン エディタの開始時間
+[2019.12.23-07.47.09:014][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'

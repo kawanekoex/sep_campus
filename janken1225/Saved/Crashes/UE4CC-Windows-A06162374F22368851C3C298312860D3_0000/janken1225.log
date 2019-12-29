@@ -1,0 +1,868 @@
+﻿Log file open, 12/29/19 23:08:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: janken1225
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179919
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1809) (), CPU: AMD Ryzen 7 2700U with Radeon Vega Mobile Gfx  , GPU: AMD Radeon(TM) RX Vega 10 Graphics
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.29-14.08.02:604][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.29-14.08.02:604][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.29-14.08.02:604][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:604][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.29-14.08.02:604][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.29-14.08.02:604][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:604][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:604][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.29-14.08.02:605][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:605][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:607][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.29-14.08.02:607][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.29-14.08.02:608][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.29-14.08.02:608][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.29-14.08.02:608][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.29-14.08.02:613][  0]LogHAL: Display: Platform has ~ 12 GB [12405260288 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.29-14.08.02:613][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.29-14.08.02:613][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.29-14.08.02:613][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Scalability.ini]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.29-14.08.02:614][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.29-14.08.02:615][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.29-14.08.02:615][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.29-14.08.02:615][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/mirai/1130/janken1225/Saved/Config/Windows/Engine.ini]
+[2019.12.29-14.08.02:615][  0]LogInit: Computer: LAPTOP-I7T5IVA6
+[2019.12.29-14.08.02:615][  0]LogInit: User: mirai
+[2019.12.29-14.08.02:615][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.29-14.08.02:615][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.29-14.08.02:615][  0]LogMemory: Memory total: Physical=11.6GB (12GB approx)
+[2019.12.29-14.08.02:615][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.29-14.08.02:615][  0]LogMemory: Process Physical Memory: 100.09 MB used, 100.09 MB peak
+[2019.12.29-14.08.02:615][  0]LogMemory: Process Virtual Memory: 88.54 MB used, 88.54 MB peak
+[2019.12.29-14.08.02:615][  0]LogMemory: Physical Memory: 6352.41 MB used,  5478.16 MB free, 11830.58 MB total
+[2019.12.29-14.08.02:615][  0]LogMemory: Virtual Memory: 4671.01 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.12.29-14.08.02:620][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.29-14.08.02:681][  0]LogInit: Overriding language with editor language configuration option (ja).
+[2019.12.29-14.08.02:682][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.12.29-14.08.02:682][  0]LogInit: Using OS detected locale (ja-JP).
+[2019.12.29-14.08.02:804][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.29-14.08.02:918][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.29-14.08.02:918][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.29-14.08.03:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.29-14.08.03:192][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.29-14.08.03:221][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) RX Vega 10 Graphics' (Feature Level 11_0)
+[2019.12.29-14.08.03:221][  0]LogD3D11RHI:       240/0/5915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.12.29-14.08.03:225][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.29-14.08.03:225][  0]LogD3D11RHI:       0/0/5915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.29-14.08.03:225][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.29-14.08.03:237][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.29-14.08.03:237][  0]LogD3D11RHI:     GPU DeviceId: 0x15dd (for the marketing name, search the web for "GPU Device Id")
+[2019.12.29-14.08.03:237][  0]LogWindows: EnumDisplayDevices:
+[2019.12.29-14.08.03:237][  0]LogWindows:    0. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:1 D:1)
+[2019.12.29-14.08.03:238][  0]LogWindows:    1. 'AMD Radeon(TM) RX Vega 10 Graphics' (P:0 D:0)
+[2019.12.29-14.08.03:238][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2019.12.29-14.08.03:238][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) RX Vega 10 Graphics
+[2019.12.29-14.08.03:238][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.40.12.01 (internal:25.20.14012.1003, unified:25.20.14012.1003)
+[2019.12.29-14.08.03:238][  0]LogD3D11RHI:      Driver Date: 11-20-2018
+[2019.12.29-14.08.03:238][  0]LogRHI: Texture pool is 168 MB (70% of 240 MB)
+[2019.12.29-14.08.03:271][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.29-14.08.03:285][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.12.29-14.08.03:825][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.29-14.08.03:839][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.29-14.08.03:855][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.29-14.08.03:868][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.29-14.08.03:886][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.29-14.08.03:904][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.29-14.08.03:920][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.29-14.08.03:933][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.29-14.08.03:940][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.29-14.08.03:991][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.29-14.08.03:994][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.29-14.08.04:023][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.29-14.08.04:024][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.29-14.08.04:047][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.29-14.08.04:047][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.29-14.08.04:060][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.29-14.08.04:074][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.29-14.08.04:085][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.29-14.08.04:098][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.29-14.08.04:141][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.29-14.08.04:141][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.29-14.08.04:141][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.29-14.08.04:159][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.29-14.08.04:259][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/mirai/1130/janken1225/Intermediate/Shaders/WorkingDirectory/7312/).
+[2019.12.29-14.08.04:259][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mirai/AppData/Local/Temp/UnrealShaderWorkingDir/0A693A824942E3D5F19F578B57FD1AB6/'.
+[2019.12.29-14.08.04:266][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.29-14.08.04:266][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.29-14.08.04:266][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.29-14.08.05:171][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.29-14.08.05:246][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/mirai/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.29-14.08.05:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mirai/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.29-14.08.05:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mirai/1130/janken1225/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.29-14.08.05:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.29-14.08.05:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mirai/1130/janken1225/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.29-14.08.05:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.29-14.08.05:263][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.29-14.08.05:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.29-14.08.05:263][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.29-14.08.05:265][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mirai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.29-14.08.05:265][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.29-14.08.05:265][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.29-14.08.05:292][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.29-14.08.05:296][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.29-14.08.05:297][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.29-14.08.05:376][  0]LogAssetRegistry: FAssetRegistry took 0.0069 seconds to start up
+[2019.12.29-14.08.05:871][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.29-14.08.06:148][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.29-14.08.06:148][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.29-14.08.06:148][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.29-14.08.06:148][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.29-14.08.06:148][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.29-14.08.06:172][  0]LogNetVersion: janken1225 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3791744820)
+[2019.12.29-14.08.06:901][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.083449 seconds
+[2019.12.29-14.08.06:913][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.29-14.08.06:914][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.29-14.08.06:914][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.29-14.08.08:460][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.29-14.08.08:465][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.29-14.08.08:618][  0]SourceControl: ソースコントロールは無効です
+[2019.12.29-14.08.08:618][  0]SourceControl: ソースコントロールは無効です
+[2019.12.29-14.08.08:620][  0]SourceControl: ソースコントロールは無効です
+[2019.12.29-14.08.08:622][  0]SourceControl: ソースコントロールは無効です
+[2019.12.29-14.08.08:772][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.29-14.08.08:957][  0]LogOcInput: OculusInput pre-init called
+[2019.12.29-14.08.08:967][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.29-14.08.08:967][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.29-14.08.09:079][  0]LogEngine: Initializing Engine...
+[2019.12.29-14.08.09:080][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.29-14.08.09:082][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.29-14.08.09:396][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.29-14.08.09:438][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.29-14.08.09:461][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.29-14.08.09:515][  0]LogInit: FAudioDevice initialized.
+[2019.12.29-14.08.09:516][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.29-14.08.09:631][  0]LogDerivedDataCache: Saved boot cache 0.12s 73MB C:/Users/mirai/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.29-14.08.09:637][  0]LogInit: Texture streaming: Enabled
+[2019.12.29-14.08.09:672][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.29-14.08.09:672][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.29-14.08.09:673][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.29-14.08.09:769][  0]LogInit: Transaction tracking system initialized
+[2019.12.29-14.08.09:849][  0]BlueprintLog: New page: エディタの読み込み
+[2019.12.29-14.08.09:982][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2019.12.29-14.08.10:444][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/janken1225/Content/' took 0.01s
+[2019.12.29-14.08.10:444][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.29-14.08.10:444][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.29-14.08.10:761][  0]SourceControl: ソースコントロールは無効です
+[2019.12.29-14.08.10:761][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mirai/1130/janken1225/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.29-14.08.10:763][  0]LightingResults: New page: ライティングのビルド
+[2019.12.29-14.08.10:768][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.29-14.08.10:769][  0]MapCheck: New page: マップをチェック
+[2019.12.29-14.08.10:769][  0]LightingResults: New page: <何も選択されていません>
+[2019.12.29-14.08.10:802][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.12.29-14.08.11:028][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.29-14.08.11:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.29-14.08.11:085][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.12.29-14.08.11:085][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.29-14.08.11:086][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.516ミリ秒かかりました。
+[2019.12.29-14.08.11:086][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.325
+[2019.12.29-14.08.11:299][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.08.11:312][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.08.11:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.08.11:336][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.08.11:353][  0]LogCollectionManager: Loaded 0 collections in 0.003301 seconds
+[2019.12.29-14.08.11:387][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/janken1225/Saved/Collections/' took 0.00s
+[2019.12.29-14.08.11:387][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/janken1225/Content/Developers/mirai/Collections/' took 0.00s
+[2019.12.29-14.08.11:387][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mirai/1130/janken1225/Content/Collections/' took 0.00s
+[2019.12.29-14.08.11:387][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.12.29-14.08.11:403][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2866 classes and 685 folders.
+[2019.12.29-14.08.11:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.29-14.08.11:704][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.29-14.08.11:908][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.29-14.08.11:912][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2019.12.29-14.08.11:917][  0]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2019.12.29-14.08.11:917][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.29-14.08.11:923][  0]LogSlate: Took 0.003172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.29-14.08.12:000][  0]LogRenderer: Reallocating scene render targets to support 840x472 Format 10 NumSamples 1 (Frame:1).
+[2019.12.29-14.08.12:167][  0]LogSlate: Took 0.002184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.29-14.08.12:398][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.12.29-14.08.12:399][  0]LogLoad: (Engine Initialization) Total time: 11.94 seconds
+[2019.12.29-14.08.12:399][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.29-14.08.12:528][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.29-14.08.12:599][  1]LogAssetRegistry: Asset discovery search completed in 7.2257 seconds
+[2019.12.29-14.08.12:606][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.12.29-14.08.12:606][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
+[2019.12.29-14.09.12:443][257]LogEditorSessionSummary: EditorSessionSummary sent report. Type=AbnormalShutdown, SessionId={6473669C-4B4E-99E7-CA92-94A9AE866E06}
+[2019.12.29-14.10.09:558][626]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.29-14.10.12:771][791]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.29-14.10.17:777][ 50]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.29-14.10.17:783][ 50]LogSlate: Took 0.004584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2019.12.29-14.10.17:799][ 50]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/StarterContent/janken.janken
+[2019.12.29-14.10.18:264][ 50]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.12.29-14.10.20:226][ 50]LogSlate: Took 0.003337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.29-14.10.20:231][ 50]LogSlate: Took 0.004062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2019.12.29-14.11.48:802][182]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-14.11.48:928][182]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2019.12.29-14.11.53:431][407]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.29-14.11.53:462][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.11.53:463][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.29-14.11.53:464][407]PIE: New page: PIEセッション: Minimal_Default (2019/12/30 8:11:53)
+[2019.12.29-14.11.53:466][407]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.29-14.11.53:468][407]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-14.11.53:476][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007828s)
+[2019.12.29-14.11.53:478][407]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.29-14.11.53:479][407]LogPlayLevel: PIE: World Init took: (0.002393s)
+[2019.12.29-14.11.53:479][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010856s)
+[2019.12.29-14.11.53:552][407]LogUObjectHash: Compacting FUObjectHashTables data took   9.79ms
+[2019.12.29-14.11.53:566][407]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.29-14.11.53:603][407]LogInit: FAudioDevice initialized.
+[2019.12.29-14.11.53:620][407]LogUObjectGlobals: Warning: オブジェクト 'Class /Script/janken1225.janken1225GameMode' が見つかりませんでした
+[2019.12.29-14.11.53:620][407]LogLoad: Game class is 'GameModeBase'
+[2019.12.29-14.11.53:623][407]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.29-23.11.53
+[2019.12.29-14.11.53:623][407]LogWorld: Bringing up level for play took: 0.001476
+[2019.12.29-14.11.53:624][407]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2019.12.29-14.11.53:651][407]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2019.12.29-14.11.53:660][407]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.721のプレイ イン エディタの開始時間
+[2019.12.29-14.11.53:660][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.12.06:594][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.29-14.12.32:478][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.12.32:483][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.12.32:483][951]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-14.12.32:484][951]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.29-14.12.32:501][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.29-14.12.32:501][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.12.32:580][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.12.32:676][951]LogUObjectHash: Compacting FUObjectHashTables data took  10.48ms
+[2019.12.29-14.12.32:723][952]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.12.29-14.12.53:220][784]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-14.12.53:339][784]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2019.12.29-14.12.54:690][825]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.29-14.12.54:718][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.12.54:719][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.29-14.12.54:719][825]PIE: New page: PIEセッション: Minimal_Default (2019/12/30 8:12:54)
+[2019.12.29-14.12.54:719][825]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-14.12.54:728][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008950s)
+[2019.12.29-14.12.54:730][825]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.29-14.12.54:730][825]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2019.12.29-14.12.54:730][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011040s)
+[2019.12.29-14.12.54:803][825]LogUObjectHash: Compacting FUObjectHashTables data took  11.04ms
+[2019.12.29-14.12.54:814][825]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.29-14.12.54:838][825]LogInit: FAudioDevice initialized.
+[2019.12.29-14.12.54:856][825]LogLoad: Game class is 'GameModeBase'
+[2019.12.29-14.12.54:859][825]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.29-23.12.54
+[2019.12.29-14.12.54:860][825]LogWorld: Bringing up level for play took: 0.002515
+[2019.12.29-14.12.54:860][825]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2019.12.29-14.12.54:867][825]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.072のプレイ イン エディタの開始時間
+[2019.12.29-14.12.54:867][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.12.59:218][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.29-14.13.10:881][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.13.10:883][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.13.10:883][484]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-14.13.10:883][484]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.29-14.13.10:911][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.29-14.13.10:911][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-14.13.10:981][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-14.13.10:990][484]LogUObjectHash: Compacting FUObjectHashTables data took   7.05ms
+[2019.12.29-14.13.11:026][485]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.12.29-14.13.45:347][805]LogSlate: Took 0.004362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.12.29-14.13.51:638][ 88]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-14.13.51:733][ 88]LogUObjectHash: Compacting FUObjectHashTables data took  10.46ms
+[2019.12.29-14.14.02:356][495]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-14.14.02:442][495]LogUObjectHash: Compacting FUObjectHashTables data took  10.53ms
+[2019.12.29-14.14.27:872][617]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.12.29-14.14.29:751][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.29-14.14.58:343][ 24]LogAssetEditorManager: Opening Asset editor for Class /Script/janken1225.MyJanken
+[2019.12.29-14.18.13:348][610]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={41C0E2AC-4778-31E8-A30C-5E81DAC85ED9}
+[2019.12.29-14.19.08:086][773]LogUObjectHash: Compacting FUObjectHashTables data took   8.26ms
+[2019.12.29-14.19.08:086][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.063
+[2019.12.29-14.19.08:091][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/janken] ([1] browsable assets)...
+[2019.12.29-14.19.08:091][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/janken]
+[2019.12.29-14.19.08:091][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/janken" FILE="../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.12.29-14.19.08:154][773]LogSavePackage: Moving '../../../../../../Users/mirai/1130/janken1225/Saved/janken_Auto1461509A9481FDF4196B01C871EB94D6F.tmp' to '../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto1.uasset'
+[2019.12.29-14.19.08:157][773]LogFileHelpers: Auto-saving content packages took 0.069
+[2019.12.29-14.30.24:217][461]LogSlate: Window 'C++ クラスを追加' being destroyed
+[2019.12.29-14.31.04:600][687]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/NewUserDefinedStruct.NewUserDefinedStruct
+[2019.12.29-14.31.40:647][579]LogUObjectHash: Compacting FUObjectHashTables data took   9.34ms
+[2019.12.29-14.31.40:647][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.069
+[2019.12.29-14.31.40:649][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewUserDefinedStruct] ([1] browsable assets)...
+[2019.12.29-14.31.40:649][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewUserDefinedStruct]
+[2019.12.29-14.31.40:649][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewUserDefinedStruct" FILE="../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/NewUserDefinedStruct_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.12.29-14.31.40:657][579]LogSavePackage: Moving '../../../../../../Users/mirai/1130/janken1225/Saved/NewUserDefinedStruct_Auto2053E8E15410DDF8582FE4D95E8690AE4.tmp' to '../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/NewUserDefinedStruct_Auto2.uasset'
+[2019.12.29-14.31.40:658][579]LogFileHelpers: Auto-saving content packages took 0.010
+[2019.12.29-14.35.43:536][442]Candidate modules for hot reload:
+[2019.12.29-14.35.43:536][442]  janken1225
+[2019.12.29-14.35.43:536][442]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=janken1225,6926 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/janken1225/janken1225.uproject" "C:/Users/mirai/1130/janken1225/janken1225.uproject"  -IgnoreJunk]
+[2019.12.29-14.35.43:538][442]Warning: Starting HotReload took  0.0s.
+[2019.12.29-14.36.43:575][129]CompilerResultsLog: New page: コンパイル - 2019/12/30 8:36:43
+[2019.12.29-14.36.43:575][129]CompilerResultsLog: Parsing headers for janken1225Editor
+[2019.12.29-14.36.43:575][129]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\janken1225\janken1225.uproject" "C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\janken1225Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.29-14.36.43:575][129]CompilerResultsLog: Reflection code generated for janken1225Editor in 23.6584017 seconds
+[2019.12.29-14.36.43:575][129]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.29-14.36.43:575][129]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.29-14.36.43:575][129]CompilerResultsLog:   [1/6] janken1225.init.gen.cpp
+[2019.12.29-14.36.43:575][129]CompilerResultsLog:   [2/6] MyJanken.gen.cpp
+[2019.12.29-14.36.43:575][129]CompilerResultsLog:   [3/6] MyJanken.cpp
+[2019.12.29-14.36.43:576][129]CompilerResultsLog:   [4/6] UE4Editor-janken1225-6926.lib
+[2019.12.29-14.36.43:576][129]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-6926.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-6926.exp ???쐬??
+[2019.12.29-14.36.43:576][129]CompilerResultsLog:   [5/6] UE4Editor-janken1225-6926.dll
+[2019.12.29-14.36.43:576][129]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-6926.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-6926.suppressed.exp ???쐬??
+[2019.12.29-14.36.43:576][129]CompilerResultsLog:   [6/6] janken1225Editor.target
+[2019.12.29-14.36.43:576][129]CompilerResultsLog: Total time in Parallel executor: 32.41 seconds
+[2019.12.29-14.36.43:576][129]CompilerResultsLog: Total execution time: 59.62 seconds
+[2019.12.29-14.36.43:576][129]LogMainFrame: MainFrame: Module compiling took 60.051 seconds
+[2019.12.29-14.36.43:636][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.12.29-14.36.43:651][129]LogClass: Could not find existing class MyJanken in package /Script/janken1225 for HotReload, assuming new class
+[2019.12.29-14.36.43:652][129]LogClass: Function Get_combo is new.
+[2019.12.29-14.36.43:652][129]LogClass: Function Get_computer_s is new.
+[2019.12.29-14.36.43:652][129]LogClass: Function Get_mes is new.
+[2019.12.29-14.36.43:652][129]LogClass: Function MyHttpCall is new.
+[2019.12.29-14.36.43:682][129]LogHotReload: Re-instancing MyJanken after hot-reload.
+[2019.12.29-14.36.44:087][129]LogContentBrowser: Native class hierarchy updated for 'janken1225' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2019.12.29-14.36.44:097][129]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.29-14.36.44:313][129]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2019.12.29-14.36.44:355][129]LogContentBrowser: Native class hierarchy populated in 0.0241 seconds. Added 2866 classes and 685 folders.
+[2019.12.29-14.36.44:357][129]Display: HotReload took 60.9s.
+[2019.12.29-14.38.51:307][367]Candidate modules for hot reload:
+[2019.12.29-14.38.51:308][367]  janken1225
+[2019.12.29-14.38.51:308][367]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=janken1225,8148 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/janken1225/janken1225.uproject" "C:/Users/mirai/1130/janken1225/janken1225.uproject"  -IgnoreJunk]
+[2019.12.29-14.38.51:310][367]Warning: Starting HotReload took  0.0s.
+[2019.12.29-14.39.05:534][137]CompilerResultsLog: New page: コンパイル - 2019/12/30 8:39:05
+[2019.12.29-14.39.05:534][137]CompilerResultsLog: Parsing headers for janken1225Editor
+[2019.12.29-14.39.05:534][137]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\janken1225\janken1225.uproject" "C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\janken1225Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.29-14.39.05:534][137]CompilerResultsLog: Error: C:/Users/mirai/1130/janken1225/Source/janken1225/Private/MyJanken.h(11)  : Error: Struct 'user_i' is missing a valid Unreal prefix, expecting 'Fuser_i'
+[2019.12.29-14.39.05:534][137]LogMainFrame: MainFrame: Module compiling took 14.236 seconds
+[2019.12.29-14.39.05:535][137]Warning: HotReload failed, recompile failed
+[2019.12.29-14.39.56:310][739]LogSlate: Took 0.003999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.29-14.39.56:371][739]LogSlate: Took 0.004399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Heavy.otf' (704K)
+[2019.12.29-14.39.56:413][739]LogSlate: Took 0.012140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.12.29-14.39.56:413][739]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ƃ (U+0183)'
+[2019.12.29-14.39.56:431][739]LogSlate: Took 0.016206 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.12.29-14.39.57:665][809]LogSlate: Window 'メッセージ ログ' being destroyed
+[2019.12.29-14.39.57:671][809]LogSlate: Window 'メッセージ ログ' being destroyed
+[2019.12.29-14.41.41:379][686]LogUObjectHash: Compacting FUObjectHashTables data took   8.84ms
+[2019.12.29-14.41.41:380][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.127
+[2019.12.29-14.41.41:382][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/janken] ([1] browsable assets)...
+[2019.12.29-14.41.41:382][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/janken]
+[2019.12.29-14.41.41:382][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/janken" FILE="../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.12.29-14.41.41:410][686]LogSavePackage: Moving '../../../../../../Users/mirai/1130/janken1225/Saved/janken_Auto3A61034A24C45DF21BF9238A8FE4A5AD0.tmp' to '../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto3.uasset'
+[2019.12.29-14.41.41:411][686]LogFileHelpers: Auto-saving content packages took 0.030
+[2019.12.29-14.42.52:647][937]Candidate modules for hot reload:
+[2019.12.29-14.42.52:647][937]  janken1225
+[2019.12.29-14.42.52:647][937]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=janken1225,1103 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/janken1225/janken1225.uproject" "C:/Users/mirai/1130/janken1225/janken1225.uproject"  -IgnoreJunk]
+[2019.12.29-14.42.52:649][937]Warning: Starting HotReload took  0.0s.
+[2019.12.29-14.43.26:621][803]CompilerResultsLog: New page: コンパイル - 2019/12/30 8:43:26
+[2019.12.29-14.43.26:621][803]CompilerResultsLog: Parsing headers for janken1225Editor
+[2019.12.29-14.43.26:621][803]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\janken1225\janken1225.uproject" "C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\janken1225Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.29-14.43.26:622][803]CompilerResultsLog: Reflection code generated for janken1225Editor in 11.5777471 seconds
+[2019.12.29-14.43.26:622][803]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.29-14.43.26:622][803]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.29-14.43.26:623][803]CompilerResultsLog:   [1/6] janken1225.init.gen.cpp
+[2019.12.29-14.43.26:623][803]CompilerResultsLog:   [2/6] MyJanken.gen.cpp
+[2019.12.29-14.43.26:623][803]CompilerResultsLog:   [3/6] MyJanken.cpp
+[2019.12.29-14.43.26:623][803]CompilerResultsLog:   [4/6] UE4Editor-janken1225-1103.lib
+[2019.12.29-14.43.26:623][803]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-1103.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-1103.exp ???쐬??
+[2019.12.29-14.43.26:624][803]CompilerResultsLog:   [5/6] UE4Editor-janken1225-1103.dll
+[2019.12.29-14.43.26:624][803]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-1103.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-1103.suppressed.exp ???쐬??
+[2019.12.29-14.43.26:625][803]CompilerResultsLog:   [6/6] janken1225Editor.target
+[2019.12.29-14.43.26:625][803]CompilerResultsLog: Total time in Parallel executor: 19.86 seconds
+[2019.12.29-14.43.26:625][803]CompilerResultsLog: Total execution time: 33.76 seconds
+[2019.12.29-14.43.26:625][803]LogMainFrame: MainFrame: Module compiling took 33.986 seconds
+[2019.12.29-14.43.26:708][803]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2019.12.29-14.43.26:720][803]LogClass: Could not find existing type User_i for HotReload. Assuming new
+[2019.12.29-14.43.26:725][803]LogContentBrowser: Native class hierarchy updated for 'janken1225' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2019.12.29-14.43.26:734][803]Display: HotReload successful (4 functions remapped  1 scriptstructs remapped)
+[2019.12.29-14.43.26:856][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.12.29-14.43.26:880][803]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2866 classes and 685 folders.
+[2019.12.29-14.43.26:880][803]Display: HotReload took 34.3s.
+[2019.12.29-14.44.28:804][173]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-14.44.28:919][173]LogUObjectHash: Compacting FUObjectHashTables data took  10.31ms
+[2019.12.29-14.45.08:103][102]LogSlate: Window 'カラー ピッカー' being destroyed
+[2019.12.29-14.48.56:641][701]Candidate modules for hot reload:
+[2019.12.29-14.48.56:641][701]  janken1225
+[2019.12.29-14.48.56:642][701]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=janken1225,3955 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/janken1225/janken1225.uproject" "C:/Users/mirai/1130/janken1225/janken1225.uproject"  -IgnoreJunk]
+[2019.12.29-14.48.56:644][701]Warning: Starting HotReload took  0.0s.
+[2019.12.29-14.49.28:712][522]CompilerResultsLog: New page: コンパイル - 2019/12/30 8:49:28
+[2019.12.29-14.49.28:713][522]CompilerResultsLog: Parsing headers for janken1225Editor
+[2019.12.29-14.49.28:713][522]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\janken1225\janken1225.uproject" "C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\janken1225Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.29-14.49.28:713][522]CompilerResultsLog: Reflection code generated for janken1225Editor in 11.1193023 seconds
+[2019.12.29-14.49.28:714][522]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.29-14.49.28:714][522]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.29-14.49.28:714][522]CompilerResultsLog:   [1/6] janken1225.init.gen.cpp
+[2019.12.29-14.49.28:715][522]CompilerResultsLog:   [2/6] MyJanken.gen.cpp
+[2019.12.29-14.49.28:715][522]CompilerResultsLog:   [3/6] MyJanken.cpp
+[2019.12.29-14.49.28:715][522]CompilerResultsLog:   [4/6] UE4Editor-janken1225-3955.lib
+[2019.12.29-14.49.28:715][522]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-3955.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-3955.exp ???쐬??
+[2019.12.29-14.49.28:716][522]CompilerResultsLog:   [5/6] UE4Editor-janken1225-3955.dll
+[2019.12.29-14.49.28:717][522]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-3955.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-3955.suppressed.exp ???쐬??
+[2019.12.29-14.49.28:718][522]CompilerResultsLog:   [6/6] janken1225Editor.target
+[2019.12.29-14.49.28:718][522]CompilerResultsLog: Total time in Parallel executor: 18.78 seconds
+[2019.12.29-14.49.28:718][522]CompilerResultsLog: Total execution time: 31.89 seconds
+[2019.12.29-14.49.28:718][522]LogMainFrame: MainFrame: Module compiling took 32.083 seconds
+[2019.12.29-14.49.28:824][522]LogUObjectHash: Compacting FUObjectHashTables data took   9.32ms
+[2019.12.29-14.49.28:850][522]LogContentBrowser: Native class hierarchy updated for 'janken1225' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2019.12.29-14.49.28:858][522]Display: HotReload successful (4 functions remapped  1 scriptstructs remapped)
+[2019.12.29-14.49.28:991][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.12.29-14.49.29:017][522]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2866 classes and 685 folders.
+[2019.12.29-14.49.29:017][522]Display: HotReload took 32.4s.
+[2019.12.29-14.51.41:804][379]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.12.29-14.51.41:804][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.109
+[2019.12.29-14.51.41:806][379]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/janken] ([1] browsable assets)...
+[2019.12.29-14.51.41:806][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/janken]
+[2019.12.29-14.51.41:806][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/janken" FILE="../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.12.29-14.51.41:843][379]LogSavePackage: Moving '../../../../../../Users/mirai/1130/janken1225/Saved/janken_Auto4C730F4EB4201BCEEA5E6C4863D3E916C.tmp' to '../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto4.uasset'
+[2019.12.29-14.51.41:844][379]LogFileHelpers: Auto-saving content packages took 0.039
+[2019.12.29-15.02.49:509][342]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-15.02.49:604][342]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2019.12.29-15.03.20:892][848]LogSlate: Window '変数の型を変更' being destroyed
+[2019.12.29-15.03.27:612][122]LogSlate: Window 'ブループリントを検索' being destroyed
+[2019.12.29-15.03.27:622][122]LogSlate: Window 'ブループリントを検索' being destroyed
+[2019.12.29-15.04.22:898][804]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2019.12.29-15.04.22:898][804]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.056
+[2019.12.29-15.04.22:900][804]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/janken] ([1] browsable assets)...
+[2019.12.29-15.04.22:900][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/janken]
+[2019.12.29-15.04.22:900][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/janken" FILE="../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.12.29-15.04.22:940][804]LogSavePackage: Moving '../../../../../../Users/mirai/1130/janken1225/Saved/janken_Auto5E0177BA04E330273E1F1CEB549429564.tmp' to '../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto5.uasset'
+[2019.12.29-15.04.22:942][804]LogFileHelpers: Auto-saving content packages took 0.042
+[2019.12.29-15.05.04:084][ 43]Candidate modules for hot reload:
+[2019.12.29-15.05.04:084][ 43]  janken1225
+[2019.12.29-15.05.04:085][ 43]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=janken1225,9373 Win64 Development -TargetType=Editor -Project="C:/Users/mirai/1130/janken1225/janken1225.uproject" "C:/Users/mirai/1130/janken1225/janken1225.uproject"  -IgnoreJunk]
+[2019.12.29-15.05.04:087][ 43]Warning: Starting HotReload took  0.0s.
+[2019.12.29-15.05.42:225][817]CompilerResultsLog: New page: コンパイル - 2019/12/30 9:05:42
+[2019.12.29-15.05.42:226][817]CompilerResultsLog: Parsing headers for janken1225Editor
+[2019.12.29-15.05.42:226][817]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mirai\1130\janken1225\janken1225.uproject" "C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\janken1225Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.29-15.05.42:227][817]CompilerResultsLog: Reflection code generated for janken1225Editor in 14.7470738 seconds
+[2019.12.29-15.05.42:227][817]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.29-15.05.42:227][817]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.29-15.05.42:228][817]CompilerResultsLog:   [1/6] janken1225.init.gen.cpp
+[2019.12.29-15.05.42:228][817]CompilerResultsLog:   [2/6] MyJanken.gen.cpp
+[2019.12.29-15.05.42:228][817]CompilerResultsLog:   [3/6] MyJanken.cpp
+[2019.12.29-15.05.42:228][817]CompilerResultsLog:   [4/6] UE4Editor-janken1225-9373.lib
+[2019.12.29-15.05.42:228][817]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-9373.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-9373.exp ???쐬??
+[2019.12.29-15.05.42:229][817]CompilerResultsLog:   [5/6] UE4Editor-janken1225-9373.dll
+[2019.12.29-15.05.42:229][817]CompilerResultsLog:      ???C?u???? C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-9373.suppressed.lib ?ƃI?u?W?F?N?g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-9373.suppressed.exp ???쐬??
+[2019.12.29-15.05.42:230][817]CompilerResultsLog:   [6/6] janken1225Editor.target
+[2019.12.29-15.05.42:230][817]CompilerResultsLog: Total time in Parallel executor: 20.63 seconds
+[2019.12.29-15.05.42:231][817]CompilerResultsLog: Total execution time: 37.94 seconds
+[2019.12.29-15.05.42:231][817]LogMainFrame: MainFrame: Module compiling took 38.153 seconds
+[2019.12.29-15.05.42:292][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.12.29-15.05.42:321][817]LogContentBrowser: Native class hierarchy updated for 'janken1225' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2019.12.29-15.05.42:329][817]Display: HotReload successful (4 functions remapped  1 scriptstructs remapped)
+[2019.12.29-15.05.42:473][817]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.12.29-15.05.42:498][817]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2866 classes and 685 folders.
+[2019.12.29-15.05.42:498][817]Display: HotReload took 38.4s.
+[2019.12.29-15.22.16:615][636]LogSlate: Window '変数の型を変更' being destroyed
+[2019.12.29-15.22.18:532][709]LogSlate: Window 'ブループリントを検索' being destroyed
+[2019.12.29-15.22.18:545][709]LogSlate: Window 'ブループリントを検索' being destroyed
+[2019.12.29-15.23.55:044][415]BlueprintLog: New page: janken をコンパイル
+[2019.12.29-15.23.55:056][415]LogClass: Warning: Property rank of rank has a struct type mismatch (tag HOTRELOADED_User_i_0 != prop User_i) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2019.12.29-15.23.55:164][415]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2019.12.29-15.24.06:718][892]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.29-15.24.06:751][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.24.06:752][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.29-15.24.06:752][892]PIE: New page: PIEセッション: Minimal_Default (2019/12/30 9:24:06)
+[2019.12.29-15.24.06:753][892]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-15.24.06:761][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008018s)
+[2019.12.29-15.24.06:763][892]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.29-15.24.06:764][892]LogPlayLevel: PIE: World Init took: (0.003011s)
+[2019.12.29-15.24.06:764][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011786s)
+[2019.12.29-15.24.06:847][892]LogUObjectHash: Compacting FUObjectHashTables data took   7.43ms
+[2019.12.29-15.24.06:855][892]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.29-15.24.06:881][892]LogInit: FAudioDevice initialized.
+[2019.12.29-15.24.06:899][892]LogLoad: Game class is 'GameModeBase'
+[2019.12.29-15.24.06:901][892]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.30-00.24.06
+[2019.12.29-15.24.06:902][892]LogWorld: Bringing up level for play took: 0.002467
+[2019.12.29-15.24.06:903][892]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.12.29-15.24.06:910][892]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.029のプレイ イン エディタの開始時間
+[2019.12.29-15.24.06:910][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.24.12:688][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.24.12:690][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-15.24.12:690][ 74]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-15.24.12:691][ 74]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.29-15.24.12:709][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.29-15.24.12:710][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.24.12:766][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-15.24.12:773][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2019.12.29-15.24.12:806][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.12.29-15.25.36:833][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.12.29-15.25.36:833][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.049
+[2019.12.29-15.25.36:836][247]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/janken] ([1] browsable assets)...
+[2019.12.29-15.25.36:836][247]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/janken]
+[2019.12.29-15.25.36:837][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/janken" FILE="../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2019.12.29-15.25.36:880][247]LogSavePackage: Moving '../../../../../../Users/mirai/1130/janken1225/Saved/janken_Auto6A67F269D4CF8A5CAB9423FA4C534315A.tmp' to '../../../../../../Users/mirai/1130/janken1225/Saved/Autosaves/Game/StarterContent/janken_Auto6.uasset'
+[2019.12.29-15.25.36:881][247]LogFileHelpers: Auto-saving content packages took 0.046
+[2019.12.29-15.29.50:293][264]LogTemp: Repeating last play command: 選択ビューポート
+[2019.12.29-15.29.50:311][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.29.50:312][264]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2019.12.29-15.29.50:315][264]LogPlayLevel: [PlayLevel] Compiling janken before play...
+[2019.12.29-15.29.50:617][264]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2019.12.29-15.29.50:618][264]LogPlayLevel: PlayLevel: Blueprint regeneration took 305 ms (1 blueprints)
+[2019.12.29-15.29.50:618][264]PIE: New page: PIEセッション: Minimal_Default (2019/12/30 9:29:50)
+[2019.12.29-15.29.50:618][264]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-15.29.50:623][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004378s)
+[2019.12.29-15.29.50:624][264]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.29-15.29.50:624][264]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2019.12.29-15.29.50:624][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006300s)
+[2019.12.29-15.29.50:668][264]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.12.29-15.29.50:675][264]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.29-15.29.50:695][264]LogInit: FAudioDevice initialized.
+[2019.12.29-15.29.50:708][264]LogLoad: Game class is 'GameModeBase'
+[2019.12.29-15.29.50:709][264]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.12.30-00.29.50
+[2019.12.29-15.29.50:710][264]LogWorld: Bringing up level for play took: 0.000833
+[2019.12.29-15.29.50:710][264]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2019.12.29-15.29.50:715][264]PIE: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.225のプレイ イン エディタの開始時間
+[2019.12.29-15.29.50:715][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.29.57:780][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.29.57:781][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.29-15.29.57:782][681]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.12.29-15.29.57:782][681]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2019.12.29-15.29.57:794][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.29-15.29.57:795][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.12.29-15.29.57:845][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
