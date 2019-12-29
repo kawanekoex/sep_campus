@@ -1,0 +1,13 @@
+﻿  Parsing headers for tetris1221Editor
+    Running UnrealHeaderTool "C:\Users\mirai\1130\tetris1221\tetris1221.uproject" "C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\tetris1221Editor\Development\tetris1221Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for tetris1221Editor in 11.1060328 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] Input.cpp
+    [2/4] UE4Editor-tetris1221-0006.lib
+       ���C�u���� C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-0006.lib �ƃI�u�W�F�N�g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-0006.exp ��쐬��
+    [3/4] UE4Editor-tetris1221-0006.dll
+       ���C�u���� C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-0006.suppressed.lib �ƃI�u�W�F�N�g C:\Users\mirai\1130\tetris1221\Intermediate\Build\Win64\UE4Editor\Development\tetris1221\UE4Editor-tetris1221-0006.suppressed.exp ��쐬��
+    [4/4] tetris1221Editor.target
+  Total time in Parallel executor: 3.27 seconds
+  Total execution time: 15.73 seconds

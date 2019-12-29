@@ -1,0 +1,12 @@
+﻿  Parsing headers for janken1225Editor
+    Running UnrealHeaderTool "C:\Users\mirai\1130\janken1225\janken1225.uproject" "C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\janken1225Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for janken1225Editor in 8.7262064 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-janken1225-0014.lib
+       ���C�u���� C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-0014.lib �ƃI�u�W�F�N�g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-0014.exp ��쐬��
+    [2/3] UE4Editor-janken1225-0014.dll
+       ���C�u���� C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-0014.suppressed.lib �ƃI�u�W�F�N�g C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\UE4Editor-janken1225-0014.suppressed.exp ��쐬��
+    [3/3] janken1225Editor.target
+  Total time in Parallel executor: 1.83 seconds
+  Total execution time: 11.86 seconds

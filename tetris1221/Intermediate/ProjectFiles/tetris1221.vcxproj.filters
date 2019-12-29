@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\tetris1221.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CD9707D9-977F-4E3A-9232-E8BA69B31BCB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\tetris1221.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\tetris1221Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{81951B0C-8F79-4E7F-912F-C2BA47E195ED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{103CF97B-D479-4423-867A-529ABDF509FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{E9E297A6-F28A-4511-BDF2-54BC0F5B22B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{A93B1F28-22C9-4770-8859-EB42ED059F03}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{99CEC18F-2A50-457A-88D4-69386879F8B5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{6308CCE7-0747-4076-9FF5-7D74E70E7DAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{584DE296-7234-423F-AE3D-1D433FBE91CE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{1FCF21CD-9931-4AC7-A0F9-BE06EBDEEA9B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{6C16968F-A3ED-44E7-9351-54C15CC95179}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\tetris1221">
+      <UniqueIdentifier>{57A8E37C-2F29-4CB2-9B68-973C98B37282}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\tetris1221\tetris1221.Build.cs">
+      <Filter>Source\tetris1221</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\tetris1221\tetris1221.cpp">
+      <Filter>Source\tetris1221</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\tetris1221\tetris1221.h">
+      <Filter>Source\tetris1221</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\tetris1221\tetris1221GameModeBase.cpp">
+      <Filter>Source\tetris1221</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\tetris1221\tetris1221GameModeBase.h">
+      <Filter>Source\tetris1221</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\tetris1221\Private">
+      <UniqueIdentifier>{e71e2158-11ea-4e5a-9f55-e34084f1be73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\tetris1221\Public">
+      <UniqueIdentifier>{2cc07ba8-24d1-45d5-828c-fb1e640da301}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\tetris1221\Private\Input.h">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\tetris1221\Public\Def.h">
+      <Filter>Source\tetris1221\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\tetris1221\Private\StageMgr.h">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\tetris1221\Private\Mesh_Block.h">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\tetris1221\Private\Tetris_Mgr.h">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\tetris1221\Private\MyUserWidget.h">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\tetris1221\Private\Input.cpp">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tetris1221\Private\Def.cpp">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tetris1221\Private\StageMgr.cpp">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tetris1221\Private\Mesh_Block.cpp">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tetris1221\Private\Tetris_Mgr.cpp">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tetris1221\Private\MyUserWidget.cpp">
+      <Filter>Source\tetris1221\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
