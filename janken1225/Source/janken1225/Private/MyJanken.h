@@ -7,6 +7,15 @@
 #include "Http.h"
 #include "MyJanken.generated.h"
 
+USTRUCT(BlueprintType)
+struct FUser_i {
+	GENERATED_USTRUCT_BODY();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "User_i")
+	int32 combo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "User_i")
+	FString name;
+};
+
 UCLASS()
 class AMyJanken : public AActor
 {
@@ -27,6 +36,13 @@ public:
 	//リクエスト
 	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
 	void MyHttpCall(int you);
+
+	//リクエスト2(rank受信)
+	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
+	void MyHttpCall2();
+	//リクエスト2(rank送信)
+	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
+	void MyHttpCall3();
 	// HTTP通信を行ってレスポンスが返ってきた際のイベント処理
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
 
@@ -40,10 +56,29 @@ public:
 		return mes;
 	}
 
+	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
+	int32& Get_combo() {
+		return player.combo;
+	}
+
+	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
+	FUser_i& Get_use_rank(int32 i) {
+		return use_rank[i];
+	}
+
+	UFUNCTION(BlueprintCallable, Category = "AMyHttpActor")
+	void Set_name(FString s) {
+		player.name = s;
+	}
+
+
 	FHttpModule* Http;									//httpクラス
 
 	bool request_frag;									//リクエスト中フラグ
 	int32 computer;										//相手の手
+	FUser_i player;
+
+	FUser_i use_rank[5];
 
 	UPROPERTY(EditAnywhere, Category = "MyHttpActor")
 	FString computer_s;									//相手の手(string)
@@ -51,3 +86,4 @@ public:
 	FString mes;										//勝敗
 
 };
+
