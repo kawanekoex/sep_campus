@@ -60,6 +60,64 @@ void AMyJanken::MyHttpCall(int you)
 	request_frag = true;
 }
 
+//http://www.kawaneko.shop/kawaneko.shop/sql.php
+void AMyJanken::MyHttpCall2()
+{
+	FString ur = "http://www.kawaneko.shop/kawaneko.shop/sql.php";
+
+	//リクエスト
+	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
+	Request->OnProcessRequestComplete().BindUObject(this, &AMyJanken::OnResponseReceived);
+	//This is the url on which to process the request
+	Request->SetURL(ur);
+	Request->SetVerb("GET");
+	Request->SetHeader(TEXT("User-Agent"), "X-UnrealEngine-Agent");
+	Request->SetHeader("Content-Type", TEXT("application/json"));
+	// Request->SetContentAsString(OutputString);
+	Request->ProcessRequest();
+	request_frag = true;
+}
+
+
+void AMyJanken::MyHttpCall3()
+{
+
+	//// Jsonデータの作成
+	//TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
+	//JsonObject->SetStringField("myText", "1");
+
+	//// OutputStringにJson書き出し
+	//FString OutputString;
+	//TSharedRef<TJsonWriter<TCHAR>> JsonWriter = TJsonWriterFactory<>::Create(&OutputString);
+	//FJsonSerializer::Serialize(JsonObject.ToSharedRef(), JsonWriter);
+
+	FString ur = "http://www.kawaneko.shop/kawaneko.shop/push.php";
+
+	//URLに値追加
+	ur += FString("?");
+	ur += FString("name=");
+	ur += player.name;
+	ur += FString("&");
+	ur += FString("score=");
+	ur += FString::FromInt(player.combo);
+	
+	player.combo = 0;
+
+	//リクエスト
+	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
+	Request->OnProcessRequestComplete().BindUObject(this, &AMyJanken::OnResponseReceived);
+	//This is the url on which to process the request
+	Request->SetURL(ur);
+	Request->SetVerb("GET");
+	Request->SetHeader(TEXT("User-Agent"), "X-UnrealEngine-Agent");
+	Request->SetHeader("Content-Type", TEXT("application/json"));
+	// Request->SetContentAsString(OutputString);
+	Request->ProcessRequest();
+	request_frag = true;
+}
+
+
+
 // Called every frame
 void AMyJanken::Tick(float DeltaTime)
 {
@@ -75,18 +133,41 @@ void AMyJanken::OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Res
 
 	if (FJsonSerializer::Deserialize(Reader, JsonObject))
 	{
-		computer = JsonObject->GetIntegerField("computer");
-		if (computer == 0) {
-			computer_s = FString(TEXT("gu-"));
-		}
-		else if (computer == 1) {
-			computer_s = FString(TEXT("tyoki"));
-		}
-		else if (computer == 2) {
-			computer_s = FString(TEXT("pa-"));
-		}
-		mes = JsonObject->GetStringField("message");
+		int32 req_t = JsonObject->GetIntegerField("req_t");
+		if (req_t == 0) {
+			computer = JsonObject->GetIntegerField("computer");
+			if (computer == 0) {
+				computer_s = FString(TEXT("gu-"));
+			}
+			else if (computer == 1) {
+				computer_s = FString(TEXT("tyoki"));
+			}
+			else if (computer == 2) {
+				computer_s = FString(TEXT("pa-"));
+			}
+			mes = JsonObject->GetStringField("message");
+			if (mes == FString("win")) {
+				player.combo++;
+			}
+			else if (mes == FString("loss")) {
+				MyHttpCall3();
+			}
 
+		}
+		else {
+			use_rank[0].name = JsonObject->GetStringField("name0");
+			use_rank[0].combo = JsonObject->GetIntegerField("score0");
+			use_rank[1].name = JsonObject->GetStringField("name1");
+			use_rank[1].combo = JsonObject->GetIntegerField("score1");
+			use_rank[2].name = JsonObject->GetStringField("name2");
+			use_rank[2].combo = JsonObject->GetIntegerField("score2");
+			use_rank[3].name = JsonObject->GetStringField("name3");
+			use_rank[3].combo = JsonObject->GetIntegerField("score3");
+			use_rank[4].name = JsonObject->GetStringField("name4");
+			use_rank[4].combo = JsonObject->GetIntegerField("score4");
+			UE_LOG(LogTemp, Warning, TEXT("call"));
+		}
 	}
 	request_frag = false;
+	UE_LOG(LogTemp, Warning, TEXT("call"));
 }
