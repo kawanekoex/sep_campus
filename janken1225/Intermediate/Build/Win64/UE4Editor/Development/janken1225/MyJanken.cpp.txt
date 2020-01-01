@@ -1,5 +1,5 @@
-C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\Definitions.janken1225.h
-C:\Users\mirai\1130\janken1225\Source\janken1225\Private\MyJanken.h
+C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\Definitions.janken1225.h
+C:\Users\mirai\1230\janken1225\Source\janken1225\Private\MyJanken.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\Http.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\HttpModule.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpRequest.h
@@ -8,7 +8,7 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\Int
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\PlatformHttp.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\Windows/WindowsPlatformHttp.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform/GenericPlatformHttp.h
-C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225\MyJanken.generated.h
+C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225\MyJanken.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Json\Public\Json.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Core.h

@@ -502,6 +502,9 @@
 /I C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225
 /I C:\Users\mirai\1130\janken1225\Source
 /I C:\Users\mirai\1130\janken1225\Source\janken1225
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
+/I Runtime\JsonUtilities\Public
+/I Runtime\JsonUtilities
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

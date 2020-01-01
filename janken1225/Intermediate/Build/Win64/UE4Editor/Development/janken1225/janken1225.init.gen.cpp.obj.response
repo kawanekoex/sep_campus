@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\mirai\1130\janken1225\Source\janken1225\Private
+/I C:\Users\mirai\1230\janken1225\Source\janken1225\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -499,9 +499,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225
-/I C:\Users\mirai\1130\janken1225\Source
-/I C:\Users\mirai\1130\janken1225\Source\janken1225
+/I C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225
+/I C:\Users\mirai\1230\janken1225\Source
+/I C:\Users\mirai\1230\janken1225\Source\janken1225
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
 /I Runtime\JsonUtilities
@@ -533,12 +533,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225\janken1225.init.gen.cpp"
-/FI"C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\Definitions.janken1225.h"
-/Fo"C:\Users\mirai\1130\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\janken1225.init.gen.cpp.obj"
+/FI"C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\janken1225Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\UE4Editor\Inc\janken1225\janken1225.init.gen.cpp"
+/FI"C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\Definitions.janken1225.h"
+/Fo"C:\Users\mirai\1230\janken1225\Intermediate\Build\Win64\UE4Editor\Development\janken1225\janken1225.init.gen.cpp.obj"
 /TP
 /GR-
 /W4

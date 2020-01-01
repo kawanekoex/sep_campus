@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+ï»¿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "MyJanken.h"
@@ -10,7 +10,7 @@ AMyJanken::AMyJanken()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	Http = &FHttpModule::Get();             //httpƒNƒ‰ƒXƒZƒbƒg
+	Http = &FHttpModule::Get();             //httpã‚¯ãƒ©ã‚¹ã‚»ãƒƒãƒˆ
 }
 
 // Called when the game starts or when spawned
@@ -23,18 +23,18 @@ void AMyJanken::BeginPlay()
 void AMyJanken::MyHttpCall(int you)
 {
 
-	//// Jsonƒf[ƒ^‚Ìì¬
+	//// Jsonãƒ‡ãƒ¼ã‚¿ã®ä½œæˆ
 	//TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
 	//JsonObject->SetStringField("myText", "1");
 
-	//// OutputString‚ÉJson‘‚«o‚µ
+	//// OutputStringã«Jsonæ›¸ãå‡ºã—
 	//FString OutputString;
 	//TSharedRef<TJsonWriter<TCHAR>> JsonWriter = TJsonWriterFactory<>::Create(&OutputString);
 	//FJsonSerializer::Serialize(JsonObject.ToSharedRef(), JsonWriter);
 
 	FString ur = "http://www.kawaneko.shop/kawaneko.shop/sample.php";
 
-	//URL‚É’l’Ç‰Á
+	//URLã«å€¤è¿½åŠ 
 	ur += FString("?");
 	ur += FString("you=");
 	if (you == 0) {
@@ -47,7 +47,7 @@ void AMyJanken::MyHttpCall(int you)
 		ur += FString("2");
 	}
 
-	//ƒŠƒNƒGƒXƒg
+	//ãƒªã‚¯ã‚¨ã‚¹ãƒˆ
 	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
 	Request->OnProcessRequestComplete().BindUObject(this, &AMyJanken::OnResponseReceived);
 	//This is the url on which to process the request
@@ -65,7 +65,7 @@ void AMyJanken::MyHttpCall2()
 {
 	FString ur = "http://www.kawaneko.shop/kawaneko.shop/sql.php";
 
-	//ƒŠƒNƒGƒXƒg
+	//ãƒªã‚¯ã‚¨ã‚¹ãƒˆ
 	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
 	Request->OnProcessRequestComplete().BindUObject(this, &AMyJanken::OnResponseReceived);
 	//This is the url on which to process the request
@@ -82,18 +82,18 @@ void AMyJanken::MyHttpCall2()
 void AMyJanken::MyHttpCall3()
 {
 
-	//// Jsonƒf[ƒ^‚Ìì¬
+	//// Jsonãƒ‡ãƒ¼ã‚¿ã®ä½œæˆ
 	//TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
 	//JsonObject->SetStringField("myText", "1");
 
-	//// OutputString‚ÉJson‘‚«o‚µ
+	//// OutputStringã«Jsonæ›¸ãå‡ºã—
 	//FString OutputString;
 	//TSharedRef<TJsonWriter<TCHAR>> JsonWriter = TJsonWriterFactory<>::Create(&OutputString);
 	//FJsonSerializer::Serialize(JsonObject.ToSharedRef(), JsonWriter);
 
 	FString ur = "http://www.kawaneko.shop/kawaneko.shop/push.php";
 
-	//URL‚É’l’Ç‰Á
+	//URLã«å€¤è¿½åŠ 
 	ur += FString("?");
 	ur += FString("name=");
 	ur += player.name;
@@ -103,7 +103,7 @@ void AMyJanken::MyHttpCall3()
 	
 	player.combo = 0;
 
-	//ƒŠƒNƒGƒXƒg
+	//ãƒªã‚¯ã‚¨ã‚¹ãƒˆ
 	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
 	Request->OnProcessRequestComplete().BindUObject(this, &AMyJanken::OnResponseReceived);
 	//This is the url on which to process the request
@@ -137,13 +137,13 @@ void AMyJanken::OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Res
 		if (req_t == 0) {
 			computer = JsonObject->GetIntegerField("computer");
 			if (computer == 0) {
-				computer_s = FString(TEXT("gu-"));
+				computer_s = FString(TEXT("ã‚°ãƒ¼"));
 			}
 			else if (computer == 1) {
-				computer_s = FString(TEXT("tyoki"));
+				computer_s = FString(TEXT("ãƒãƒ§ã‚­"));
 			}
 			else if (computer == 2) {
-				computer_s = FString(TEXT("pa-"));
+				computer_s = FString(TEXT("ãƒ‘ãƒ¼"));
 			}
 			mes = JsonObject->GetStringField("message");
 			if (mes == FString("win")) {
