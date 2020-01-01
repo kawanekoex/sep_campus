@@ -1,0 +1,3 @@
+C:\Users\mirai\1230\janken1225\Source\janken1225\janken1225.Build.cs
+C:\Users\mirai\1230\janken1225\Source\janken1225.Target.cs
+C:\Users\mirai\1230\janken1225\Source\janken1225Editor.Target.cs

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\janken1225.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{30FB13B5-661E-4534-BC09-71B3B488359D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\janken1225.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\janken1225Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7F8948E0-1B4D-4E40-9951-4ECAC5132270}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{3FA745DA-E2D3-4240-AAD0-B8192D11C9ED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{9CAF9F2D-BCDF-4AC3-A090-2B302C266425}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{29FBAC10-0AD9-4397-9C99-51BE3735DDD4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{8D18DC09-07CC-424D-86BA-7A97B54C3EAE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{6BB26E5B-0684-4BED-898D-27346F90901C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{01718754-128E-4B1C-B33F-9ACF0C70729C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{33A9A2B3-C4D4-434E-9BA3-6ABE095CDE04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{09192626-3AF4-4C42-BEF3-5CC56CA33064}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\janken1225">
+      <UniqueIdentifier>{AA2B4FC7-D735-4615-8036-6A5666316ABD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\janken1225\janken1225.Build.cs">
+      <Filter>Source\janken1225</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\janken1225\janken1225.cpp">
+      <Filter>Source\janken1225</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\janken1225\janken1225.h">
+      <Filter>Source\janken1225</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\janken1225\janken1225GameModeBase.cpp">
+      <Filter>Source\janken1225</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\janken1225\janken1225GameModeBase.h">
+      <Filter>Source\janken1225</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\janken1225\Private">
+      <UniqueIdentifier>{d1a3c653-3eac-4041-ae59-60f17d3ab6b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\janken1225\Private\MyJanken.h">
+      <Filter>Source\janken1225\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\janken1225\Private\MyJanken.cpp">
+      <Filter>Source\janken1225\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
